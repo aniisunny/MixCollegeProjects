@@ -1,0 +1,28 @@
+package learning;
+
+import java.util.Scanner;
+
+public class ProfitOrLoss {
+
+	public static void main(String[] args) {
+	
+		@SuppressWarnings("resource")
+		Scanner scanner = new Scanner (System.in);
+		
+		System.out.print("Selling Price: ");
+		int sellingPrice = scanner.nextInt();
+		
+		System.out.print("Costing Price: ");
+		int costingPrice = scanner.nextInt();
+		
+		int amountofloss = costingPrice - sellingPrice;
+		int amountofprofit = sellingPrice - costingPrice;
+		
+		if (costingPrice > sellingPrice) {
+			System.out.print("amount of loss: ");
+		}
+		else {
+			System.out.print("amount of profit: ");
+		}
+	}
+}

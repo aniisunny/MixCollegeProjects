@@ -1,0 +1,25 @@
+header {
+	/*border-bottom:3px solid black;*/
+	padding:16;
+}
+
+img {
+	vertical-align:middle;
+}
+
+.left-side h2 {
+	text-align:center;
+	color:black;
+	font-size:50;
+	font-family:algerian;
+	display:inline;
+	padding:16;
+}
+.right-side {
+	float:right;
+	padding:16;
+}
+
+.shop h4 {
+	text-align:center;
+}

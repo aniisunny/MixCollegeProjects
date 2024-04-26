@@ -1,0 +1,19 @@
+@font-face {
+	font-family: myFont1;
+	src: url('../resource/fonts/himalaya.ttf');
+	
+	font-family: myFont2;
+	src: url('../resource/fonts/CenturyGothic.ttf');
+
+}
+
+:root { 
+	--shadow: 0 5px 5px rgba(1, 1, 4, .5); 
+	--shadow2: 0 2px 2px rgba(1, 1, 4, .2); 
+	--main-red1-color: #e10f0f; 
+	--main-red2-color: #dd6b55; 
+	--main-red3-color: #ef0000; 
+	--main-gray-color: #d0d0d0; 
+	--main-black-color: #404040; 
+	--main-blue-color: #aedef4;
+}

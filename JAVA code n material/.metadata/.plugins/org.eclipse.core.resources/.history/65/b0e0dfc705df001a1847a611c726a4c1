@@ -1,0 +1,15 @@
+package TCSCodevita2020;
+
+import java.io.BufferedReader;
+import java.io.InputStreamReader;
+
+public class FactorOf3 {
+
+	public static void main(String[] args) {
+		
+		try (BufferedReader reader = new BufferedReader (new InputStreamReader (System.in))) {
+			
+		}
+	}
+
+}

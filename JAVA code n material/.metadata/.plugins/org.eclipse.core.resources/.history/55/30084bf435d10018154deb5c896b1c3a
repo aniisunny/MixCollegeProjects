@@ -1,0 +1,89 @@
+package Graph;
+
+import java.util.Scanner;
+
+public class BreadthFirstSearch {
+	
+	int vertices;
+	int edges;
+	int [] [] adjacency;
+	Queue front = null;
+	Queue rear = null;
+	
+	class Queue {
+		
+		int data;
+		Queue next;
+		
+	}
+	
+	 void BFS () {
+		
+		Scanner scan = new Scanner ( System.in );
+		int i, n;
+		int status [] = new int [ vertices ];
+		
+		System.out.println ( "Enter the node number which to be start for traversing :- " );
+		int nodeNumber = scan.nextInt ();
+		
+		for ( i = 0 ; i < vertices; i ++ ) 	
+			status [ i ] = 1;
+		
+		Queue ptr = new Queue ();
+		
+		ptr.data = nodeNumber;
+		
+		if ( rear == null )
+        	front = rear = ptr;
+		
+		for ( i = 0; i < status.length; i++ ) 
+			
+			if ( nodeNumber == status [ i ] ) {
+				
+				status [ i ] = 2;
+				break;
+				
+			}
+		
+		while ( rear != null ) {
+			
+			ptr = front;
+			
+			for ( i = 0; i < status.length; i++ ) 
+				
+				if ( ptr.data == status [ i ] ) {
+					
+					status [ i ] = 3;
+					System.out.println ( ptr.data );
+					break;
+					
+				}
+			
+			System.out.println ( "Enter the total number of adjacent nodes :- " );
+			n = scan.nextInt ();
+			
+			for ( i = 0; i < n; i++ ) {
+				
+				System.out.println ( "Enter the adjacent node number :- " );
+				nodeNumber = scan.nextInt ();
+				
+				Queue temp = new Queue ();
+				
+				temp.data = nodeNumber;
+				
+				rear.next = temp;
+				rear = ptr;
+				
+			}
+			
+		}
+		
+	}
+
+	public static void main ( String[] args ) {
+		
+		
+
+	}
+
+}

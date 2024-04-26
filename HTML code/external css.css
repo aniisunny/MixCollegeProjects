@@ -1,0 +1,14 @@
+body {
+	background-color:black;
+	}
+h1 {
+	color:red;
+	text-align:center;
+	}
+p {
+	color:green; 
+	font-size:20;
+	border:1px;
+	margin:50px;
+	padding:30px;
+	}

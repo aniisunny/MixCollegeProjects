@@ -1,0 +1,14 @@
+.cart {
+    display: grid;
+    grid-template-columns: auto 20%;
+    height: 69.5%;
+    width:100%;
+}
+
+.items {
+	background-color: green;
+}
+
+.grand_total {
+	background-color: blue;
+}

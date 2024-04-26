@@ -1,0 +1,19 @@
+package learning;
+
+import java.util.Scanner;
+
+public class Circle {
+
+	public static void main(String[] args) {
+	
+		@SuppressWarnings("resource")
+		Scanner scanner = new Scanner ("system.in");
+		
+		System.out.print("Enter a number: ");
+		int radius = scanner.nextInt();
+		System.out.println (radius);
+//		double area = 3.14 * radius * radius;
+//		double circumference = 2 * 3.14 * radius;
+	}
+
+}

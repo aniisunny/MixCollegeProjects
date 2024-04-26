@@ -1,0 +1,25 @@
+package learning;
+
+import java.util.Scanner;
+
+public class FourDigitNumber {
+
+	public static void main(String[] args) {
+		
+		@SuppressWarnings("resource")
+		Scanner scanner = new Scanner (System.in);
+		
+		System.out.print("Enter Four Digit Number: ");
+		int FourDigitNumber = scanner.nextInt();
+		
+		int FirstDigitNumber = FourDigitNumber%1000;
+		int SecondDigitNumber = (FourDigitNumber%1000)/100;
+		int ThirdDigitNumber = (FourDigitNumber%100)/10;
+		int LastDigitNumber = FourDigitNumber/10;
+		
+		System.out.println("First Digit Number: " + FirstDigitNumber);
+		System.out.println("Second Digit Number: " + SecondDigitNumber);
+		System.out.println("Third Digit Number: " + ThirdDigitNumber);
+		System.out.println("Four Digit Number: " + FourDigitNumber);
+	}
+}

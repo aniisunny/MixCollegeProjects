@@ -1,0 +1,62 @@
+package CodeChef;
+
+import java.io.BufferedReader;
+import java.io.InputStreamReader;
+import java.util.Arrays;
+import java.util.HashMap;
+
+public class ChefinaandSwaps {
+
+	public static void main(String[] args) throws Exception {
+		
+		try (BufferedReader read = new BufferedReader (new InputStreamReader (System.in))) {
+			int testCases = Integer.valueOf (read.readLine ());
+			
+			while (testCases-- != 0) {
+				int n = Integer.valueOf (read.readLine ());
+				
+				String[] str = read.readLine ().split (" ");
+				int[] arrayA = new int[n];
+				
+				for (int i = 0; i < n; i++) {
+					arrayA[i] = Integer.valueOf (str[i]);
+				}
+				
+				str = read.readLine ().split (" ");
+				int[] arrayB = new int[n];
+				
+				for (int i = 0; i < n; i++) {
+					arrayB[i] = Integer.valueOf (str[i]);
+				}
+				
+				Arrays.sort (arrayA);
+				Arrays.sort (arrayB);
+				
+				int i = 0;
+				for (; i < n; i++) {
+					if (arrayA[i] != arrayB[i]) {
+						break;
+					}
+				}
+				
+				if (i == n) {
+					System.out.println (0);
+					continue;
+				}
+				
+				HashMap<Integer, Integer> mapA = new HashMap <>();
+				
+				for (i = 0; i < n; i++) {
+					mapA.put (arrayA[i], mapA.getOrDefault (arrayA[i], 0) + 1);
+				}
+				
+				HashMap<Integer, Integer> mapB = new HashMap <>();
+				
+				for (i = 0; i < n; i++) {
+					mapB.put (arrayB[i], mapB.getOrDefault (arrayB[i], 0) + 1);
+				}
+			}
+		}
+	}
+
+}

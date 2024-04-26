@@ -1,0 +1,81 @@
+
+body {
+	font-family: myFont1;
+	font-family: myFont2;
+}
+
+#navBar {
+	box-shadow: var(--shadow);
+	display: grid;
+	height: 75px;
+	grid-template-rows: 40px;
+	grid-template-columns: 30% 45% 25%;
+	position: relative;
+	background-color: var(--main-red1-color);
+}
+
+.logo { 
+	margin: 16px;
+	font-size: 2em;
+	letter-spacing: 0.02em;
+	text-shadow: var(--shadow);
+}
+
+.logo_cu {
+	color: rgba(255, 255, 255, .9);
+	font-weight: bold;
+	font-stretch: expanded;
+}
+
+.logo_m {
+	color: black;
+	font-weight: lighter;
+	padding-left: 3px;
+	font-size: .98em;
+}
+
+#search {
+	border-radius: 50px;
+	border-width: .5px;
+	border-color: black;
+	font-size: 16px;
+	height: 35px;
+	width: 90%;
+	margin-top: 10px;
+	padding-left: 10px;
+}
+
+#search_ic {
+	position: absolute;
+	width: 24px;
+	height: 32%;
+	margin-top: 15px;
+	margin-left: -38px;
+}
+
+.detail {
+	position: absolute;
+	margin-top: 12px;
+	right: 210px;
+}
+
+@media all and (max-width:920px) {
+	.detail {
+		display: none;
+	}
+	#navBar {
+		grid-template-columns: 50% auto;
+	}
+}
+
+@media all and (max-width:550px) {
+	.logo {
+		display: none;
+	}
+	#navBar {
+		grid-template-columns: auto;
+	}
+	#search {
+		margin-left: 20px;
+	}
+}

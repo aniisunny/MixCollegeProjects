@@ -1,0 +1,131 @@
+:root {
+    --shadow: 0 5px 5px rgba(1, 1, 4, .5);
+    --shadow2: 0 2px 2px rgba(1, 1, 4, .2);
+
+}
+
+body {
+    font-family: sans-serif;
+}
+
+#navBar {
+    box-shadow: var(--shadow);
+    background-color: rgba(0, 0, 0, .05);
+    display: grid;
+    grid-template-rows: 40px;
+    grid-template-columns: 20% 45% 35%;
+}
+
+.logo {
+    // top right bottom left;
+    margin: 5 5 5 5;
+    font-family: sans-serif;
+    font-size: 1.7em;
+    letter-spacing: 0.05em;
+}
+
+.logo_cu {
+    color: firebrick;
+    font-weight: bold;
+    font-stretch: expanded;
+}
+
+.logo_m {
+    color: black;
+    font-weight: lighter;
+    padding-left: 1.5px;
+    font-size: .99em;
+}
+
+
+
+#search {
+    border-radius: 25px;
+    border-radius: 15px 50px 30px 5px;
+    border-width: thin one black;
+    box-shadow: var(--shadow2);
+    text-overflow: clip;
+    font-size: 17px;
+    text-align: center;
+    height: 88%;
+    width: 80%;
+    margin: 0 0 0 10%;
+}
+
+#search_ic {
+
+    width: 20px;
+    height: 18px;
+    margin-left: -35px;
+    margin-bottom: -3px;
+}
+
+
+.slider {
+    max-width: 700px;
+    height: 300px;
+    border: 5px solid #646060;
+    margin: 50px auto;
+    position: relative;
+    overflow: hidden;
+}
+
+.slider .prev,.next {
+    position: absolute;
+    width: 32px;
+    height: 35px;
+    background-color: #646060;
+    border-radius: 50%;
+    color: #fff;
+    font-size: 20px;
+    top: 50%;
+    margin-top: -20px;
+    text-align: center;
+    line-height: 35px;
+    cursor: pointer;
+}
+
+.slider .prev:hover,.next:hover {
+    box-shadow: var(--shadow);
+    background-color: cadetblue;
+}
+
+.slider .prev:active,.next:active {
+    background-color: #29a8e2;
+}
+.slider .prev {
+    left: 10px;
+}
+.slider .next {
+    right: 10px;
+}
+
+.slider .slider-items .item .img {
+    max-width: 100%;
+    display: block;
+    animation: zoom 1s ease;
+}
+@keyframes slider {
+    0%{transform: scale(2);opacity: 0;}
+    100%{transform: scale(1);opacity: 1;}
+}
+
+.slider .slider-items .item {
+    display: none;
+    position: relative;
+}
+
+.slider .slider-items .item.active {
+    display: block;
+}
+
+
+
+
+
+@media all and (max-width:800px) {
+    #navBar {
+        //background-color: red;
+        grid-template-columns: 38% auto;
+    }
+}

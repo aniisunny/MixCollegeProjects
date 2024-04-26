@@ -1,0 +1,37 @@
+package CodeChef;
+
+import java.io.BufferedReader;
+import java.io.InputStreamReader;
+import java.util.Arrays;
+
+public class ChefinaandSwaps {
+
+	public static void main(String[] args) throws Exception {
+		
+		try (BufferedReader read = new BufferedReader (new InputStreamReader (System.in))) {
+			int testCases = Integer.valueOf (read.readLine ());
+			
+			while (testCases-- != 0) {
+				int n = Integer.valueOf (read.readLine ());
+				
+				String[] str = read.readLine ().split (" ");
+				int[] arrayA = new int[n];
+				
+				for (int i = 0; i < n; i++) {
+					arrayA[i] = Integer.valueOf (str[i]);
+				}
+				
+				str = read.readLine ().split (" ");
+				int[] arrayB = new int[n];
+				
+				for (int i = 0; i < n; i++) {
+					arrayB[i] = Integer.valueOf (str[i]);
+				}
+				
+				System.out.println (Arrays.toString (arrayA));
+				System.out.prinltn (Arrays.toString (arrayB));
+			}
+		}
+	}
+
+}

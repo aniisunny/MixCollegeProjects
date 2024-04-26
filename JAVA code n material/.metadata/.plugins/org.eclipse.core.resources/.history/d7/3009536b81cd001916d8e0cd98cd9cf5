@@ -1,0 +1,30 @@
+package Trees;
+
+public class LevelOrderQueue {
+	
+	queue front, rear;
+	
+	class queue {
+		int value;
+		queue next;
+	}
+	
+	LevelOrderQueue() {
+		front = rear = null;
+	}
+	
+	void insertion() {
+		
+	}
+	
+	void deletion() {
+		
+	}
+
+	public static void main(String[] args) {
+		
+		
+
+	}
+
+}

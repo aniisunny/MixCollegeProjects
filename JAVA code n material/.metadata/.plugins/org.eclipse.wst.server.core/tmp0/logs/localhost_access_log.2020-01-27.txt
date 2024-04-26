@@ -1,0 +1,17 @@
+127.0.0.1 - - [27/Jan/2020:10:47:33 +0530] "GET / HTTP/1.1" 404 1074
+0:0:0:0:0:0:0:1 - - [27/Jan/2020:10:47:35 +0530] "GET /CuMerchandise/ui-files/home2.jsp HTTP/1.1" 200 5850
+0:0:0:0:0:0:0:1 - - [27/Jan/2020:10:47:35 +0530] "GET /CuMerchandise/style-files/home-root-style.css HTTP/1.1" 304 -
+0:0:0:0:0:0:0:1 - - [27/Jan/2020:10:47:35 +0530] "GET /CuMerchandise/style-files/home-header-style2.css HTTP/1.1" 304 -
+0:0:0:0:0:0:0:1 - - [27/Jan/2020:10:47:35 +0530] "GET /CuMerchandise/style-files/home-slider-style2.css HTTP/1.1" 304 -
+0:0:0:0:0:0:0:1 - - [27/Jan/2020:10:47:35 +0530] "GET /CuMerchandise/style-files/home-footer-style2.css HTTP/1.1" 304 -
+0:0:0:0:0:0:0:1 - - [27/Jan/2020:10:47:35 +0530] "GET /CuMerchandise/style-files/home-body-style2.css HTTP/1.1" 304 -
+0:0:0:0:0:0:0:1 - - [27/Jan/2020:10:47:35 +0530] "GET /CuMerchandise/resource/icons/email_ic.png HTTP/1.1" 304 -
+0:0:0:0:0:0:0:1 - - [27/Jan/2020:10:47:35 +0530] "GET /CuMerchandise/resource/icons/search_ic.png HTTP/1.1" 304 -
+0:0:0:0:0:0:0:1 - - [27/Jan/2020:10:47:36 +0530] "GET /CuMerchandise/resource/icons/call_ic.png HTTP/1.1" 304 -
+0:0:0:0:0:0:0:1 - - [27/Jan/2020:10:47:36 +0530] "GET /CuMerchandise/js-files/home-controller.js HTTP/1.1" 304 -
+0:0:0:0:0:0:0:1 - - [27/Jan/2020:10:47:36 +0530] "GET /CuMerchandise/resource/slider/01.jpg HTTP/1.1" 304 -
+0:0:0:0:0:0:0:1 - - [27/Jan/2020:10:47:36 +0530] "GET /CuMerchandise/resource/slider/00.jpg HTTP/1.1" 304 -
+0:0:0:0:0:0:0:1 - - [27/Jan/2020:10:47:36 +0530] "GET /CuMerchandise/resource/fonts/CenturyGothic.ttf HTTP/1.1" 304 -
+0:0:0:0:0:0:0:1 - - [27/Jan/2020:10:47:39 +0530] "GET /CuMerchandise/resource/slider/02.jpg HTTP/1.1" 304 -
+0:0:0:0:0:0:0:1 - - [27/Jan/2020:10:47:42 +0530] "GET /CuMerchandise/resource/slider/04.jpg HTTP/1.1" 304 -
+0:0:0:0:0:0:0:1 - - [27/Jan/2020:10:47:56 +0530] "GET /CuMerchandise/ui-files/home2.jsp?offset=2 HTTP/1.1" 200 5859

@@ -1,0 +1,22 @@
+package GoogleHashCode;
+
+import java.util.HashMap;
+import java.util.LinkedList;
+
+class Pair {
+	int n;
+	LinkedList<String> list = new LinkedList<String>();
+}
+
+public class Input1 {
+	static public void input() {
+		HashMap<Character, Pair> map = new HashMap<Character, Pair>();
+	}
+
+	public static void main(String[] args) {
+		
+		input();
+
+	}
+
+}

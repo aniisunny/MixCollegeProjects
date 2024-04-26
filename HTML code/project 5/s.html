@@ -1,0 +1,92 @@
+<html>
+<head>
+<title>PASSENGER'S FORM</title>
+<style>
+body{
+background:url("tilt-shift-train-wallpaper-50082-51769-hd-wallpapers.jpg");
+background-size:cover;
+}
+.Passenger_Details{
+border-radius:5px;
+padding:20px;
+width:450px;
+margin:auto;
+color:#fff;
+font-size:16px;
+font-family:Verdana;
+margin-top:20px;
+opacity:0.9;
+}
+.Passenger_Details h1{
+text-align:center;
+margin:0;
+padding:0;
+}
+.Passenger_Details input, select{
+padding:12px 20px;
+margin:8px 0;
+display:inline-bock;
+border:1px solid #ccc;
+border-radius:4px;
+box-sizing:border-box;
+font-size:18px;
+background: grey;
+color:black;
+opacity:0.9;
+
+}
+.Passenger_Details input[type=submit]{
+width:50%;
+border:none;
+cursor:pointer;
+}
+#name{
+width:50%
+}
+input[type=submit]:hover{
+background:#45a049;
+trnsition:0.6s
+}
+option{
+color:white;
+
+}
+</style>
+</head>
+<body>
+<div class="Passenger_Details">
+<form>
+<h1>Passenger Details</h1>
+<hr>
+NAME: <br>
+<input type="text" name="name" id="name" placeholder="Name"required>
+<br>
+AGE: <br>
+<input type="text" name="age" id="age" placeholder="Age" required> 
+<br>
+PHONE NO.: <br>
+<input type="text" name="phone no." id="phone no." placeholder="Phon No." required> 
+<br>
+GENDER:<br>
+<input type="radio" name="gender" value="male">Male<br / >
+<input type="radio" name="gender" value="female">Female<br / >
+<input type="radio" name="gender" value="Transgender">Transgender<br / >
+<br>
+<label>BERTH PREFERENCE
+<select name="berth preference">
+<option value="NONE">(NONE)</option>
+<option value="NONE">LOWER</option>
+<option value="NONE">UPPER</option>
+<option value="NONE">SIDE UPPER</option>
+<option value="NONE">SIDE LOWER</option>
+</select>
+</label><br / >
+<input type="checkbox"> I Accept Terms & Conditions
+<br>
+<input type="submit" value="BOOK">
+<input type="submit" value="RESET">
+
+</div>
+</form>
+</body>
+<html>

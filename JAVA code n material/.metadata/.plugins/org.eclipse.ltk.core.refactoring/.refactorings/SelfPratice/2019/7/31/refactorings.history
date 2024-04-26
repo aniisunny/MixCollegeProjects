@@ -1,0 +1,4 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<session version="1.0">
+<refactoring comment="Convert local variable &apos;KickStart.XORWhat.input().scan&apos; in &apos;KickStart.XORWhat.input()&apos; to field&#x0D;&#x0A;- Original project: &apos;SelfPratice&apos;&#x0D;&#x0A;- Original element: &apos;KickStart.XORWhat.input().scan&apos;&#x0D;&#x0A;- Field name: &apos;scan&apos;&#x0D;&#x0A;- Initialize field in method&#x0D;&#x0A;- Declared visibility: &apos;private&apos;&#x0D;&#x0A;- Declare field &apos;static&apos;" description="Convert local variable &apos;scan&apos; to field" final="false" flags="2" id="org.eclipse.jdt.ui.promote.temp" initialize="1" input="/src&lt;KickStart{XORWhat.java" name="scan" selection="119 29" stamp="1564291629691" static="true" version="1.0" visibility="2"/>
+</session>

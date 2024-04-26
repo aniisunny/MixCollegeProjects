@@ -1,0 +1,71 @@
+package Problems;
+
+import java.util.Iterator;
+import java.util.LinkedList;
+
+public class MergeTwoSortedList1 {
+	
+	public static LinkedList mergeTwoLists ( LinkedList l1, LinkedList l2 ) {
+		
+		LinkedList < Integer > l3 = new LinkedList < Integer > ();
+		
+		Iterator it1 = l1.iterator ();
+		Iterator it2 = l2.iterator ();
+		
+		while ( it1.hasNext () && it2.hasNext () ) {
+			
+			int x = ( int ) it1.next ();
+			int y = ( int ) it2.next ();
+			System.out.println(x);
+			System.out.println(y);
+			if ( x > y ) {
+				
+				l3.add ( y );
+				
+			}
+			
+			else {
+				
+				l3.add ( x );
+				
+			}
+			
+		}
+		
+		while ( it1.hasNext () ) {
+			
+			l3.add ( ( int ) it1.next () );
+			it1.next ();
+			
+		}
+		
+		while ( it2.hasNext () ) {
+			
+			l3.add ( ( int ) it2.next () );
+			it2.next ();
+			
+		}
+		
+		return l3;
+		
+	}
+
+	public static void main(String[] args) {
+		
+		LinkedList < Integer > l1 = new LinkedList < Integer > ();
+		
+		l1.add ( 1 );
+		l1.add ( 2 );
+		l1.add ( 4 );
+		
+		LinkedList < Integer > l2 = new LinkedList < Integer > ();
+		
+		l2.add ( 1 );
+		l2.add ( 3 );
+		l2.add ( 4 );
+		
+		System.out.println ( mergeTwoLists ( l1, l2 ) );
+
+	}
+
+}

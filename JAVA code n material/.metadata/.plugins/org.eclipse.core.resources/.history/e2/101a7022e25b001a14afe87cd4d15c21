@@ -1,0 +1,46 @@
+package CodeChef;
+
+import java.util.ArrayList;
+import java.util.Collections;
+import java.util.Comparator;
+import java.util.List;
+import java.util.Scanner;
+
+public class StockMax {
+	
+	public static void main (String[] args) throws java.lang.Exception
+	{
+		Scanner sc = new Scanner(System.in);
+		int testCases = sc.nextInt();
+		while(testCases-- != 0) {
+		    int n = sc.nextInt();
+		    List<List<Integer>> list = new ArrayList<List<Integer>>();
+		    for(int i = 0; i < n; i++) {
+		        List<Integer> temp = new ArrayList<Integer>();
+		        temp.add(sc.nextInt());
+		        temp.add(sc.nextInt());
+		        list.add(temp);
+		    }
+		    
+		    Collections.sort(list, new Comparator<List<Integer>>() {
+		        public int compare(List<Integer> l1, List<Integer> l2) {
+		            return l1.get(0) - l2.get(0);
+		        }
+		    });
+		    //System.out.println(list);
+		    
+		    int countMax = 0;
+		    for(int i = 0; i < n; i++) {
+		    	List<Integer> l1 = list.get(i);
+		    	int j = i + 1;
+		    	for(; j < n; j++) {
+		    		List<Integer> l2 = list.get(j);
+		    		if(!(l2.get(0) > l1.get(0) && l2.get(1) > l1.get(1))) break;
+		    	}
+		    	if(j == n) countMax++;
+		    }
+		    System.out.println(countMax + 1);
+		}
+		sc.close();
+	}
+}

@@ -1,0 +1,31 @@
+package Problems;
+
+import java.util.Scanner;
+
+public class atleastthree {
+	int counter=0;
+	void three(int n) {
+		int og=n,rem;
+		while(n!=0) {
+			rem=n%10;
+			if(rem==3) 
+				counter++;
+			n/=10;
+		}
+		if(counter==0 || counter==1 || counter==2) {
+			og++;
+			three(og);
+		}
+		else
+			System.out.print("\nNearest atleast 3 three times:-" +og);
+	}
+
+	public static void main(String[] args) {
+		
+		Scanner sc=new Scanner(System.in);
+		System.out.print("Enter the Number:-");
+		int n=sc.nextInt();
+		atleastthree ob=new atleastthree();
+		ob.three(n);
+	}
+}

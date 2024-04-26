@@ -1,0 +1,32 @@
+package Problems;
+
+public class SymbolInGrammer2 {
+	
+	static public int kthGrammar(int N, int K) { 
+		String oldString = "0";
+		for(int i = 2; i <= N; i++) {
+			String newString = "";
+			if(oldString.charAt(oldString.length() - 1) == '0') {
+				for(int j = oldString.length() - 1; j >= 0; j--) {
+					if(oldString.charAt(j) == '0')
+						newString += "1";
+					if(oldString.charAt(j) == '1')
+						newString += "0";
+				}
+			}
+			if(oldString.charAt(oldString.length() - 1) == '1') {
+				
+			}
+			oldString += newString;
+		}
+		return oldString.charAt(K - 1) - '0';
+	}
+
+	public static void main(String[] args) {
+		
+		//System.out.println(kthGrammar(30, 434991989));
+		System.out.println(kthGrammar(2, 2));
+
+	}
+
+}

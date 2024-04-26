@@ -1,0 +1,24 @@
+package JavaSwing;
+
+import java.awt.Component;
+
+import javax.swing.JCheckBox;
+import javax.swing.JFrame;
+
+public class ComboBox {
+	ComboBox() {
+		JFrame f = new JFrame("CheckBox");
+		String[] country = {"Australia, Canada, England, India, New Zealand, USA" };
+		JCheckBox cb = new JCheckBox();
+		cb.setBounds(100, 50, 100, 50);
+		f.add(cb);
+		f.setSize(300, 300);
+		f.setVisible(true);
+		f.setLayout(null);
+	}
+
+	public static void main(String[] args) {
+		new ComboBox();
+	}
+
+}

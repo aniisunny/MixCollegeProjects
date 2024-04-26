@@ -1,0 +1,15 @@
+package Problems;
+
+public class NonRepeatingCharacter {
+	
+	static public char firstNonRepeatingCharacter(String s) {
+		
+	}
+
+	public static void main(String[] args) {
+		
+		String str = "GeeksQuiz";
+		System.out.println(firstNonRepeatingCharacter(str));
+	}
+
+}

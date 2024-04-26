@@ -1,0 +1,146 @@
+package CodeChef;
+
+import java.io.BufferedReader;
+import java.io.InputStreamReader;
+import java.util.ArrayList;
+import java.util.Collections;
+import java.util.HashMap;
+import java.util.LinkedHashMap;
+import java.util.LinkedList;
+import java.util.List;
+
+public class ChefinaandSwaps {
+
+	public static void main(String[] args) throws Exception {
+		
+		try (BufferedReader read = new BufferedReader (new InputStreamReader (System.in))) {
+			int testCases = Integer.valueOf (read.readLine ());
+			
+			while (testCases-- != 0) {
+				int n = Integer.valueOf (read.readLine ());
+				
+				String[] str = read.readLine ().split (" ");
+				
+				HashMap<Long, Integer> map = new HashMap <> ();
+				HashMap<Long, Integer> mapA = new HashMap <>();
+				HashMap<Long, Integer> mapB = new HashMap <>();
+				
+				long peakMinimum = Integer.MAX_VALUE;
+				long[] arrayA = new long[n];
+				long[] arrayB = new long[n];
+				
+				for (int i = 0; i < n; i++) {
+					arrayA[i] = Integer.valueOf (str[i]);
+					peakMinimum = Math.min (peakMinimum, arrayA[i]);
+					map.put (arrayA[i], map.getOrDefault (arrayA[i], 0) + 1);
+					mapA.put (arrayA[i], mapA.getOrDefault (arrayA[i], 0) + 1);
+				}
+				
+				str = read.readLine ().split (" ");
+				
+				for (int i = 0; i < n; i++) {
+					arrayB[i] = Integer.valueOf (str[i]);
+					peakMinimum = Math.min (peakMinimum, arrayB[i]);
+					map.put (arrayB[i], map.getOrDefault (arrayB[i], 0) + 1);
+					mapB.put (arrayB[i], mapB.getOrDefault (arrayB[i], 0) + 1);
+				}
+				
+				if (mapA.equals (mapB)) {
+					System.out.println (0);
+					continue;
+				}
+				
+//				Arrays.sort (arrayA);
+//				Arrays.sort (arrayB);
+//				
+//				int i = 0;
+//				for (; i < n; i++) {
+//					if (arrayA[i] != arrayB[i]) {
+//						break;
+//					}
+//				}
+//				
+//				if (i == n) {
+//					System.out.println (0);
+//					continue;
+//				}
+				
+//				System.out.println (mapA);
+//				System.out.println (mapB);
+//				System.out.println (map);
+				
+				boolean flag = false;
+				for (int key : map.keySet ()) {
+					if (map.get (key) % 2 != 0) {
+						flag = true;
+						break;
+					}
+				}
+				
+				if (flag) {
+					System.out.println (-1);
+					continue;
+				}
+				
+				for (int num : arrayA) {
+					mapB.put (num, mapB.getOrDefault (num, 0) - 1);
+				}
+				
+				for (int num : arrayB) {
+					mapA.put (num, mapA.getOrDefault (num, 0) - 1);
+				}
+				
+//				map.clear ();
+//				map = (HashMap<Integer, Integer>) mapB.clone ();
+//				
+//				for (int key : mapA.keySet ()) {
+//					int value = mapA.get (key);
+//					mapB.put (key, mapB.getOrDefault (key, 0) - value);
+//				}
+//				
+//				for (int key : map.keySet ()) {
+//					int value = map.get (key);
+//					mapA.put (key, mapA.getOrDefault (key, 0) - value);
+//				}
+				
+//				System.out.println (mapA);
+//				System.out.println (mapB);
+				
+				List<Integer> listA = new ArrayList <>();
+				List<Integer> listB = new ArrayList <>();
+				
+				for (int key : mapA.keySet ()) {
+					int value = mapA.get (key) / 2;
+					while (value-- > 0) {
+						listA.add (key);
+					}
+				}
+				
+				for (int key : mapB.keySet ()) {
+					int value = mapB.get (key) / 2;
+					while (value-- > 0) {
+						listB.add (key);
+					}
+				}
+				
+				Collections.sort (listA);
+				Collections.sort (listB, Collections.reverseOrder ());
+				
+//				System.out.println (listA);
+//				System.out.println (listB);
+				
+				int i = -1;
+				int minimumCost = 0;
+				
+				while (++i < listA.size ()) {
+					int minimum = Math.min (listA.get (i), listB.get (i));
+					minimum = Math.min (minimum, 2 * peakMinimum);
+					minimumCost += minimum;
+				}
+				
+				System.out.println (minimumCost);
+			}
+		}
+	}
+
+}

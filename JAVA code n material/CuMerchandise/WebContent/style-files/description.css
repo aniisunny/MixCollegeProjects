@@ -1,0 +1,162 @@
+.mainBody{
+    margin: 16px;
+    margin-top: 36px;
+    display: grid;
+    height: 550px;
+    grid-template-columns: 40% auto;
+    position :relative;
+}
+
+.mainbody .product_image {
+    margin: 16px;
+    display: grid;
+    grid-template-columns: 20% auto;
+    height: 100%;
+    grid-column-gap: 10px;
+}
+
+.product_image .col0 {
+    margin: 4px;
+    display: grid;
+    grid-template-rows: 25% 25% 25%;
+    grid-row-gap: 30px;
+}
+
+.col0 .image {
+    height: 100%;
+    width: 100%;
+}
+
+.product_image img{
+    height: 90%;
+    width: 80%;
+}
+
+.col1{
+    height: 100%;
+    width: 100%;
+}
+
+.mainBody .product_detail {
+    margin: 16px;
+}
+
+.product_detail .product_name {
+    color: black;
+    font-weight: bold;
+    font-stretch: expanded;
+    font-size: 27px;
+}
+
+.product_detail .about_product {
+    color:  rgba(1, 1, 4, .5);
+    line-height: 32px;
+    border-bottom-width: thin;
+    font-size: 24px;
+}
+
+.product_detail .price_product1 {
+    color: black;
+    font-weight: bold;
+    font-size: 24px;
+    font-stretch: expanded;
+}
+
+.product_detail .price_product2 {
+    color: rgba(1, 1, 4, .5);
+    font-size: 24px;
+    padding-left: 12px;
+}
+
+.product_detail .price_product3 {
+    color:orange;
+    font-size: 24px;
+    padding-left: 12px;
+}
+
+.product_detail .taxes {
+    color:green;
+    line-height: 24px;
+    font-size: 16px;
+}
+
+.product_detail .select_size {
+    color: black;
+    font-size: 17px;
+    font-weight: bold;
+}
+
+.product_detail .size_chart {
+    color: red;
+    font-size: 17px;
+    padding-left: 24px;
+}
+
+.size_div {
+    margin-top: 16px;
+}
+    
+.size {
+    background: red;
+    height: 50px;
+    width: 50px;
+    border-radius:50%;
+    font-size: 18px;
+    color: #fff;
+    line-height: 50px;
+    display: inline-block;
+    text-align: center;
+    margin-right: 16px;
+}
+
+.size::selection {
+	background-color: blue;
+}
+
+.buy_now {
+    margin-top: 36px;
+}
+
+.bag {
+    margin-right: 16px;
+    font-size: 20px;
+    color: white;
+    background-color: red;
+    width: 200px;
+    height: 40px;
+    border-color: black;
+    border-width: thin;
+    cursor: pointer;
+}
+
+.buy {
+    margin-right: 16px;
+    margin-left: 16px;
+    font-size: 20px;
+    background-color: red;
+    color: white;
+    width: 200px;
+    height: 40px;
+    border-color: black;
+    cursor: pointer;
+    border-width: thin;
+}
+
+.bag:hover, .buy:hover {
+    background-color: black;
+    
+}
+
+.bag:active, .buy:active {
+    background-color: #29a8e2;
+}
+
+.details {
+    margin-top: 24px;
+    font-size: 16px;
+    font-weight: bold;
+}
+
+.name {
+    margin-top: 12px;
+}

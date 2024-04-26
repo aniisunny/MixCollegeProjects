@@ -1,0 +1,37 @@
+package learning;
+
+import java.util.Scanner;
+
+public class SubjectMarks {
+
+	public static void main(String[] args) {
+		
+		@SuppressWarnings("resource")
+		Scanner scanner = new Scanner (System.in);
+		
+		System.out.print("Enter Marks of Subject 1: ");
+		System.out.print("Enter Marks of  Subject 2: ");
+		System.out.print("Enter Marks of Subject 3: ");
+		System.out.print("Enter Marks of  Subject 4: ");
+		System.out.print("Enter Marks of  Subject 5: ");
+		
+		int MarksofSubject1 = scanner.nextInt();
+		int MarksofSubject2 = scanner.nextInt();
+		int MarksofSubject3 = scanner.nextInt();
+		int MarksofSubject4 = scanner.nextInt();
+		int MarksofSubject5 = scanner.nextInt();
+		
+		int Total =  MarksofSubject1 +  MarksofSubject2 + MarksofSubject3 +  MarksofSubject4 +  MarksofSubject5;
+		
+		int PercentageofSubject1 =  MarksofSubject1/Total*100;
+		int PercentageofSubject2 =  MarksofSubject2/Total*100;
+		int PercentageofSubject3 =  MarksofSubject3/Total*100;
+		int PercentageofSubject4 =  MarksofSubject4/Total*100;
+		int PercentageofSubject5 =  MarksofSubject5/Total*100;
+		
+		int TotalPercentage = PercentageofSubject1 + PercentageofSubject2 + PercentageofSubject3 + PercentageofSubject4 + PercentageofSubject5;
+		
+		System.out.println("Total: " + Total);
+		System.out.println("Total Percentage of a Student: " + TotalPercentage);
+		}
+}

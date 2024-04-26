@@ -1,0 +1,15 @@
+package Problems;
+
+public class ClimbStairs {
+	
+	static public int climbStairs(int n) {
+		
+	}
+
+	public static void main(String[] args) {
+		
+		System.out.println(climbStairs(5));
+
+	}
+
+}

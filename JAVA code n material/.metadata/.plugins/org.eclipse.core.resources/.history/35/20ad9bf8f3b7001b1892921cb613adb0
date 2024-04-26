@@ -1,0 +1,16 @@
+package learning;
+
+public class Print {
+
+	public static void main(String[] args) {
+		
+		System.out.println ("Hello, Shriya");
+		System.out.println ("You are welcome in Java Programming.");
+		
+		int a = 10;
+		int b=a++ + ++a;
+		
+		System.out.println (a);
+		System.out.println (b);
+	}
+}

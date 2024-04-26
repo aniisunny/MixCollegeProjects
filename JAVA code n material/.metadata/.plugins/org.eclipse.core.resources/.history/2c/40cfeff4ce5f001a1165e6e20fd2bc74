@@ -1,0 +1,14 @@
+package CodeChef;
+
+import java.util.Scanner;
+
+public class XOREngine {
+
+	public static void main(String[] args) {
+		
+		Scanner sc = new Scanner(System.in);
+		
+
+	}
+
+}

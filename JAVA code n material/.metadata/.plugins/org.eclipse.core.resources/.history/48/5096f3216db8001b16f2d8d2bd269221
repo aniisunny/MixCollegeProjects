@@ -1,0 +1,27 @@
+package learning;
+
+import java.util.Scanner;
+
+public class ThreeDigitNumber {
+
+	public static void main(String[] args) {
+	
+		@SuppressWarnings("resource")
+		Scanner scanner = new Scanner (System.in);
+		
+		System.out.print("Enter Three Digit Number: ");
+		int ThreeDigitNumber = scanner.nextInt();
+		
+		System.out.print("Enter First Digit Numner: ");
+		int FirstDigitNumber = scanner.nextInt();
+		
+		System.out.print("Enter Second Digit Number:");
+		int SecondDigitNumber = scanner.nextInt();
+		
+		int SumOfFirstDigitAndLastDigitNumber = FirstDigitNumber + SecondDigitNumber;
+		
+		System.out.print("Sum Of First Digit And Last Digit Number: " + SumOfFirstDigitAndLastDigitNumber);
+		
+	}
+
+}

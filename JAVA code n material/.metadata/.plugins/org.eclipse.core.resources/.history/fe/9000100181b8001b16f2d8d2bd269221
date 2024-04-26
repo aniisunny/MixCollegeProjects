@@ -1,0 +1,27 @@
+package learning;
+
+import java.util.Scanner;
+
+public class SwapValuesUsing3rdVariable {
+
+	public static void main(String[] args) {
+		
+		@SuppressWarnings("resource")
+		Scanner scanner = new Scanner (System.in);
+		
+		System.out.print("Enter First Number: ");
+		int FirstNumber = scanner.nextInt();
+		System.out.print("Enter Second Number: ");
+		int SecondNumber = scanner.nextInt();
+		
+	    int c = FirstNumber;
+	    int a = SecondNumber;
+	    int b = c;
+	    
+	    System.out.println("First Number: " + FirstNumber);
+	    System.out.println("Second Number: " + SecondNumber);
+	    
+
+	}
+
+}

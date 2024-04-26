@@ -1,0 +1,44 @@
+package Problems;
+
+public class ReverseNumber2 {
+
+	static public int reverse ( long x ) {
+
+		boolean flag = false;
+		
+		if( x<0 ) {
+			
+			Long i1 = new Long(x);
+			String s  = i1.toString();
+			s = s.substring(1);
+			x = Long.parseLong(s);
+			flag = true;
+			
+		}
+
+		Long i = new Long(x);
+		String s  = i.toString();
+		StringBuffer sb = new StringBuffer(s);
+		sb = sb.reverse();
+		long temp = 0;
+		temp = Long.parseLong(sb.toString());
+		if(temp < Integer.MIN_VALUE || temp > Integer.MAX_VALUE) {
+			temp = 0;
+		}
+		if(flag == true) {
+			temp *= -1;
+		}
+		return (int)temp;        
+	    }
+
+		public static void main(String[] args) {
+			
+			System.out.println ( reverse ( 1534236469 ) );
+			System.out.println ( reverse ( 1463847412 ) );
+			System.out.println ( reverse ( -2147483648 ) );
+			System.out.println ( reverse ( 153423646 ) );
+			System.out.println ( reverse ( -2147483412 ) );
+
+		}
+		
+}

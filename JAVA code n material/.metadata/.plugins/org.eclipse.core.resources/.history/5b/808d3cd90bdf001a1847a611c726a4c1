@@ -1,0 +1,12 @@
+package TCSCodevita2020;
+
+public class BinaryEquivalent1 {
+
+	public static void main(String[] args) {
+		
+		try (BufferedReader reader = new BufferedReader (new InputStreamReader (System.in))) {
+			
+		}
+	}
+
+}

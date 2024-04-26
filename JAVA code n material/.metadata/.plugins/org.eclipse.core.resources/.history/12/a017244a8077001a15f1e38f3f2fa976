@@ -1,0 +1,56 @@
+package CodeChef;
+
+import java.math.BigInteger;
+import java.util.Scanner;
+
+class Pair {
+	int divisors, primes;
+	
+	public Pair(int divisors, int primes) {
+		this.divisors = divisors;
+		this.primes = primes;
+	}
+}
+
+public class StrangeNumber {
+	
+	private static Pair divisorPrime(long n) {
+		
+		int countPrimes = 0, countDivisors = 0;
+		for(long i = 1; i * i <= n; i++) {
+			if(n % i == 0) {
+				BigInteger b = new BigInteger(String.valueOf(i));
+				if(n / i == i) {
+					++countDivisors;
+					if(b.isProbablePrime(1)) ++countPrimes;
+				}
+				else {
+					countDivisors += 2;
+					if(b.isProbablePrime(1)) ++countPrimes;
+					b = new BigInteger(String.valueOf(n / i));
+					if(b.isProbablePrime(1)) ++countPrimes;
+				}
+			}
+		}
+		
+		return new Pair(countDivisors, countPrimes);
+	}
+
+	public static void main(String[] args) {
+		
+		Long range = new Long("1000000000000000000");
+		Scanner sc = new Scanner(System.in);
+		int testCases = sc.nextInt();
+		
+		while(testCases-- != 0) {
+			int X = sc.nextInt();
+			int K = sc.nextInt();
+			
+			for(long A = 1; A <= range; A++) {
+				
+			}
+		}
+		sc.close();
+	}
+
+}

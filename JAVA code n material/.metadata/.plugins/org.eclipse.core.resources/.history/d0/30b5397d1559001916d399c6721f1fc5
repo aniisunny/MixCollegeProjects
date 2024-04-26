@@ -1,0 +1,20 @@
+package Problems;
+
+public class SymbolInGrammer2 {
+	
+	static public int kthGrammar(int N, int K) { 
+		String old = "";
+		for(int i = 1; i < N; i++) {
+			
+		}
+		return old.charAt(K - 1) - '0';
+	}
+
+	public static void main(String[] args) {
+		
+		//System.out.println(kthGrammar(30, 434991989));
+		System.out.println(kthGrammar(4, 5));
+
+	}
+
+}

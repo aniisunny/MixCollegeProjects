@@ -1,0 +1,98 @@
+package CodeChef;
+
+import java.io.BufferedReader;
+import java.io.InputStreamReader;
+import java.util.Arrays;
+import java.util.HashMap;
+
+public class ChefinaandSwaps {
+
+	public static void main(String[] args) throws Exception {
+		
+		try (BufferedReader read = new BufferedReader (new InputStreamReader (System.in))) {
+			int testCases = Integer.valueOf (read.readLine ());
+			
+			while (testCases-- != 0) {
+				int n = Integer.valueOf (read.readLine ());
+				
+				String[] str = read.readLine ().split (" ");
+				int[] arrayA = new int[n];
+				
+				for (int i = 0; i < n; i++) {
+					arrayA[i] = Integer.valueOf (str[i]);
+				}
+				
+				str = read.readLine ().split (" ");
+				int[] arrayB = new int[n];
+				
+				for (int i = 0; i < n; i++) {
+					arrayB[i] = Integer.valueOf (str[i]);
+				}
+				
+				Arrays.sort (arrayA);
+				Arrays.sort (arrayB);
+				
+				int i = 0;
+				for (; i < n; i++) {
+					if (arrayA[i] != arrayB[i]) {
+						break;
+					}
+				}
+				
+				if (i == n) {
+					System.out.println (0);
+					continue;
+				}
+				
+				HashMap<Integer, Integer> map = new HashMap <Integer, Integer> ();
+				HashMap<Integer, Integer> mapA = new HashMap <>();
+				
+				for (i = 0; i < n; i++) {
+					map.put (arrayA[i], map.getOrDefault (arrayA[i], 0) + 1);
+					mapA.put (arrayA[i], mapA.getOrDefault (arrayA[i], 0) + 1);
+				}
+				
+				HashMap<Integer, Integer> mapB = new HashMap <>();
+				
+				for (i = 0; i < n; i++) {
+					map.put (arrayB[i], map.getOrDefault (arrayB[i], 0) + 1);
+					mapB.put (arrayB[i], mapB.getOrDefault (arrayB[i], 0) + 1);
+				}
+				
+				System.out.println (mapA);
+				System.out.println (mapB);
+				System.out.println (map);
+				
+				boolean flag = false;
+				for (int key : map.keySet ()) {
+					if (map.get (key) % 2 != 0) {
+						flag = true;
+						break;
+					}
+				}
+				
+				if (flag) {
+					System.out.println (-1);
+					continue;
+				}
+				
+				map.clear ();
+				map = (HashMap<Integer, Integer>) mapB.clone ();
+				
+				for (int key : mapA.keySet ()) {
+					int value = mapA.get (key);
+					mapB.put (key, mapB.getOrDefault (key, 0) - value);
+				}
+				
+				for (int key : map.keySet ()) {
+					int value = map.get (key);
+					mapA.put (key, mapA.getOrDefault (key, 0) - value);
+				}
+				
+				System.out.println (mapA);
+				System.out.println (mapB);
+			}
+		}
+	}
+
+}

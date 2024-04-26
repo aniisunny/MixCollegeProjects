@@ -1,0 +1,36 @@
+package CodeChef;
+
+import java.util.Scanner;
+import java.util.Stack;
+
+public class FactorTree {
+	
+	private static void dfs(Stack<Integer> stack, int[][] edges, int v) {
+		
+	}
+
+	public static void main(String[] args) {
+		
+		Scanner sc = new Scanner(System.in);
+		int testCases = sc.nextInt();
+		while(testCases-- != 0) {
+			int n = sc.nextInt();
+			int[][] edges = new int[n - 1][2];
+			for(int i = 0; i < n - 1; i++) {
+				edges[i][0] = sc.nextInt();
+				edges[i][1] = sc.nextInt();
+			}
+			int queries = sc.nextInt();
+			while(queries-- != 0) {
+				int u = sc.nextInt();
+				int v = sc.nextInt();
+				Stack<Integer> stack = new Stack<Integer>();
+				stack.add(u);
+				dfs(stack, edges, v);
+			}
+		}
+		sc.close();
+	}
+
+}
+ 

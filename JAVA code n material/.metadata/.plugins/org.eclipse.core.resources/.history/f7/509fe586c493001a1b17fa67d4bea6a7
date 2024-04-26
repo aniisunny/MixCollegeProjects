@@ -1,0 +1,12 @@
+package linear;
+
+public class TernarySearch {
+
+	public static void main(String[] args) {
+		
+		try(BufferedReader read = new BufferedReader(new InputStream(System.in))) {
+			
+		}
+	}
+
+}

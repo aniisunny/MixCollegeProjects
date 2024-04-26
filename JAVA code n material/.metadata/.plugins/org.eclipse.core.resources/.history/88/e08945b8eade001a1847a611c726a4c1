@@ -1,0 +1,91 @@
+package TCSCodevita2020;
+
+import java.io.BufferedReader;
+import java.io.IOException;
+import java.io.InputStreamReader;
+import java.util.ArrayList;
+import java.util.HashMap;
+import java.util.List;
+
+public class BinaryEquivalent {
+	
+	private static List<List<Integer>> combinations (int[] binaryArray) {
+		
+		List<List<Integer>> combinations = new ArrayList<> ();
+		combinations.add (new ArrayList<> ());
+	
+		for (int num : binaryArray) {
+			List<List<Integer>> helper = new ArrayList <> ();
+			for (List<Integer> current : combinations) {
+				List<Integer> temp = new ArrayList<> (current);
+				temp.add (num);
+				helper.add (temp);
+			}
+			
+			for (List<Integer> current : helper) {
+				combinations.add (current);
+			}
+		}
+		
+		return combinations;
+	}
+	
+	private static int maxBits (int num) {
+		
+		return (int) (Math.log (num) / Math.log (2) + 1);
+	}
+
+	public static void main(String[] args) throws IOException {
+		
+		try (BufferedReader reader = new BufferedReader (new InputStreamReader (System.in))) {
+			
+			int sizeOfArray = Integer.valueOf (reader.readLine ());
+			
+			int[] binaryArray = new int[sizeOfArray];
+			
+			String[] str = reader.readLine ().split (" ");
+			
+			for (int index = 0; index < sizeOfArray; index++) {
+				binaryArray[index] = Integer.valueOf (str[index]);
+			}
+			
+			int maxBits = 0;
+			
+			for (int num : binaryArray) {
+				maxBits = Math.max (maxBits, maxBits (num));
+			}
+			
+			List<List<Integer>> combinations = combinations (binaryArray);
+			
+			System.out.println (maxBits);
+			System.out.println (combinations);
+			
+			HashMap<Integer, Integer> oneBitMap = new HashMap <>();
+			
+			for (int num : binaryArray) {
+				int countBits = Integer.bitCount (num);
+				oneBitMap.put (num, countBits);
+			}
+			
+			System.out.println (oneBitMap);
+			
+			for (List<Integer> current : combinations) {
+				if (current.size () == 0) {
+					continue;
+				}
+				
+				int countOneBits = 0;
+				int countZeroBits = 0;
+				
+				for (int num : current) {
+					int countBits = oneBitMap.get (num);
+					countOneBits += countBits;
+					countZeroBits += maxBits - countBits;
+				}
+				
+				
+			}
+		}
+	}
+
+}

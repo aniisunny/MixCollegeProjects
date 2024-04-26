@@ -1,0 +1,32 @@
+package learning;
+
+import java.util.Scanner;
+
+public class SecondLargestNumber {
+
+	public static void main(String[] args) {
+		@SuppressWarnings("resource")
+		Scanner scanner = new Scanner (System.in);
+		
+		System.out.print("Enter three digit number:");
+		int number = scanner.nextInt();
+		
+		System.out.print("Enter first number:");
+		int a = scanner.nextInt();
+		System.out.print("Enter second number:");
+		int b = scanner.nextInt();
+		System.out.print("Enter third number:");
+		int c = scanner.nextInt();
+		
+		if (a > b) {
+			System.out.print("a");
+		}
+		else if (b > c) {
+			System.out.print("b");
+		}
+		else {
+			System.out.print("c");
+		}
+	}
+
+}

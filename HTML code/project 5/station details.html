@@ -1,0 +1,86 @@
+<html>
+<head>
+<style>
+body{background-image:url("untitled.png");
+background-size: cover;
+}
+.book_your_fav_journey{
+border-radius:5px;
+padding:20px;
+width:450px;
+margin:auto;
+color:black;
+font-size:16px;
+font-family:Verdana;
+margin-top:20px;
+opacity:0.9;
+}
+.book_your_fav_journey h1{
+text-align:center;
+margin:0;
+padding:0;
+}
+.book_your_fav_journey input, select{
+padding:12px 20px;
+margin:8px 0;
+display:inline-bock;
+border:1px solid #ccc;
+border-radius:4px;
+box-sizing:border-box;
+font-size:18px;
+background: grey;
+color:black;
+opacity:0.9;
+
+}
+.book_your_fav_journey input[type=submit]{
+width:50%;
+border:none;
+cursor:pointer;
+
+}
+#name{
+width:50%
+}
+input[type=submit]:hover{
+background:#45a049;
+trnsition:0.6s
+}
+option{
+color:white;
+
+}
+</style>
+</head>
+<body>
+<div class="book_your_fav_journey">
+<form>
+<h1>BOOK YOUR FAVOURITE JOURNEY</h1>
+<hr>
+<Label>FROM STATION:
+<select name="from:">
+<option value="NONE">(NONE)</option>
+<option value="CHANDIGARH">CHANDIGARH</option>
+<option value="NEW DELHI">NEW DELHI</option>
+<option value="JAMMU">JAMMU</option>
+</select>
+</label><br / > <br>  
+<Label>  TO STATION:
+<select name="   to:">
+<option value="NONE">(NONE)</option>
+<option value="CHANDIGARH">CHANDIGARH</option>
+<option value="NEW DELHI">NEW DELHI</option>
+<option value="JAMMU">JAMMU</option>
+</select>
+</label><br> <br>
+<form action="/action_page.php">
+  JOURNEY DATE:
+  <input type="date" name="date"><BR>
+<BR / >
+
+  <input type="submit" value="SUBMIT">
+ <input type="submit" value="RESET">
+</div>
+</form>
+</body>
+</html>

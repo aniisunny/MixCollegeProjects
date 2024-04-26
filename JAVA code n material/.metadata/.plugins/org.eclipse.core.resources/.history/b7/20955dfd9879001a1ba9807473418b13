@@ -1,0 +1,60 @@
+package CodeChef;
+
+import java.util.Scanner;
+import java.util.Stack;
+
+public class FactorTree {
+	
+	private static void dfs(Stack<Integer> stack, int[][] edges, int n, int v, boolean flag) {
+		
+		int top = stack.peek();
+		if(top == v) {
+			flag = true;
+			return;
+		}
+		int i = 0;
+		for(; i < n; i++) {
+			if(top == edges[i][0]) {
+				stack.add(edges[i][1]);
+				System.out.println(stack);
+				dfs(stack, edges, n, v, flag);
+				if(flag == true) return;
+			}
+		}
+		if(flag == false && i == n) {
+			stack.pop();
+			return;
+		}
+	}
+
+	public static void main(String[] args) {
+		
+		Scanner sc = new Scanner(System.in);
+		int testCases = sc.nextInt();
+		while(testCases-- != 0) {
+			int n = sc.nextInt();
+			int[][] edges = new int[n - 1][2];
+			for(int i = 0; i < n - 1; i++) {
+				edges[i][0] = sc.nextInt();
+				edges[i][1] = sc.nextInt();
+			}
+			
+			int[] cost = new int[n];
+			for(int i = 0; i < n; i++) cost[i] = sc.nextInt();
+			
+			int queries = sc.nextInt();
+			while(queries-- != 0) {
+				int u = sc.nextInt();
+				int v = sc.nextInt();
+				Stack<Integer> stack = new Stack<Integer>();
+				boolean flag = false;
+				stack.add(u);
+				dfs(stack, edges, n - 1, v, flag);
+				System.out.println(stack);
+			}
+		}
+		sc.close();
+	}
+
+}
+ 

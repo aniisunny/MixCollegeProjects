@@ -1,0 +1,47 @@
+package GoogleHashCode;
+
+import java.util.HashMap;
+import java.util.LinkedList;
+import java.util.Scanner;
+
+class Pair {
+	Character position;
+	int n;
+	LinkedList<String> list = new LinkedList<String>();
+	
+	Pair(Character position, int n, LinkedList<String> list) {
+		this.position = position;
+		this.n = n;
+		this.list = list;
+	}
+}
+
+public class Input1 {
+	static public void input() {
+		Scanner scan = new Scanner(System.in);
+		System.out.print ("How many Photos: ");
+		int photos = scan.nextInt();
+		HashMap<Integer, Pair> map = new HashMap<Integer, Pair>();
+		for(int i = 0; i < photos; i++) {
+			String s = scan.next();
+			int n = scan.nextInt();
+			LinkedList<String> list = new LinkedList<String>();
+			for(int j = 1; j <= n; j++) {
+				System.out.print ("Enter the string: ");
+				String str = scan.next();
+				list.add(str);
+			}
+			System.out.println(list);
+			Pair p = new Pair(s.charAt(0), n, list);
+			map.put(i, p);
+		}
+		System.out.println(map);
+	}
+
+	public static void main(String[] args) {
+		
+		input();
+
+	}
+
+}

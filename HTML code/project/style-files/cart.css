@@ -1,0 +1,92 @@
+.cart {
+    display: grid;
+    grid-template-columns: auto 20%;
+    height: 69.5%;
+    width:100%;
+}
+
+.cart .items {
+    padding-left: 30px;
+    padding-top: 10px;
+    height: 100%;
+}
+
+.cart .grand_total {
+    margin-top: 10px;
+    display: grid;
+    grid-template-rows:5% 55% 10%;
+    grid-gap: 10px;
+}
+.cart .items .table {
+    overflow-y:scroll;
+    margin: 10px;
+    width: 95%;
+    height: 120px;
+}
+.cart .items  .table th{
+    background: rgba(0,0,0,.8);    
+    color: white;
+    text-align: left;
+    font-size: 20px;
+    padding-right: 50px;
+}
+.quan {
+    text-align: center;
+}
+.quan input{
+    width: 50%;
+}
+
+.delete {
+    text-align: center;
+    
+}
+
+.white {
+    background: #D2D2D2;
+}
+
+.grey {
+    background: #AFA3A3;
+}
+.item td{
+    padding-right: 12px;    
+    color: black;
+    text-align: left;
+    font-size: 20px;
+}
+
+.order {
+    margin-top: 24px;
+    font-size: 16px;
+    padding: 8px;
+    background: red;
+    margin-left: 60%;
+}
+
+.grand_total .tablediv{
+    margin-top: 10px;
+    display: table-row;
+    overflow-y: scroll;
+}
+
+.footer {
+    display: grid;
+    grid-template-columns: 40% 40% auto;
+    padding: 20px;
+}
+.developer{
+    margin-top: 20px;
+    line-height: 30px;
+    text-align: right;
+    font-size: 18px;
+}
+
+.about{
+    line-height: 30px;
+    font-size: 18px;
+}
+.detail{
+    line-height: 27px;
+    font-size: 18px;
+}

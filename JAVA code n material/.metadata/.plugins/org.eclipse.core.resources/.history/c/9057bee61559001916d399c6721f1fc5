@@ -1,0 +1,27 @@
+package Problems;
+
+public class SymbolInGrammer2 {
+	
+	static public int kthGrammar(int N, int K) { 
+		String oldString = "0";
+		for(int i = 2; i < N; i++) {
+			String newString = "";
+			for(int j = 0; j < oldString.length(); j++) {
+				if(oldString.charAt(j) == '0')
+					newString += "01";
+				if(oldString.charAt(j) == '1')
+					newString += "10";
+			}
+			oldString = newString;
+		}
+		return oldString.charAt(K - 1) - '0';
+	}
+
+	public static void main(String[] args) {
+		
+		//System.out.println(kthGrammar(30, 434991989));
+		System.out.println(kthGrammar(1, 1));
+
+	}
+
+}

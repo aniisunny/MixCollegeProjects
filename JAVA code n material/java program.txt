@@ -1,0 +1,18 @@
+String user=t1.getText();
+        String pwd= new String(p1.getPassword());
+        if(user.equalsIgnoreCase("awsmhrsh"))
+        {
+            if(pwd.equals("imdbst"))
+            {
+                JOptionPane.showMessageDialog(null,"you have sucessfully login","message",1);
+            }
+            else
+            {
+                 JOptionPane.showMessageDialog(null,"wrong password");
+            }
+           
+        }
+         else
+             JOptionPane.showMessageDialog(null,"wrong username");
+        
+    }                                  

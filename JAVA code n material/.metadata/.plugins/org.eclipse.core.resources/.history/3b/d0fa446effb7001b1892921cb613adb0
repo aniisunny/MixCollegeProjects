@@ -1,0 +1,18 @@
+package learning;
+
+import java.util.Scanner;
+
+public class Circle {
+
+	public static void main(String[] args) {
+	
+		@SuppressWarnings("resource")
+		Scanner scanner = new Scanner ("system.in");
+		
+		System.out.print("Enter a number: ");
+		float radius  = scanner.nextFloat();
+		
+		float area = 3.14 * radius * radius;
+	}
+
+}

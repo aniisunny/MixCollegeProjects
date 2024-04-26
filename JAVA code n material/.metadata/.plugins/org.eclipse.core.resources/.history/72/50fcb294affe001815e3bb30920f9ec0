@@ -1,0 +1,39 @@
+package Problems;
+
+public class LongestPalindroamicSubString2 {
+	
+	static String longestPalindrome ( String s ) {
+		
+		
+		
+		return null;
+		
+	}
+
+	public static void main(String[] args) {
+		
+		String s= "ccbdbcc";
+		
+		/*String s = "\"rgczcpratwyqxaszbuwwcadruayhasynuxnakpmsy"
+				+ "hxzlnxmdtsqqlmwnbxvmgvllafrpmlfuqpbhjddmhmbcgmlye"
+				+ "ypkfpreddyencsdmgxysctpubvgeedhurvizgqxclhpfrvxggrow"
+				+ "aynrtuwvvvwnqlowdihtrdzjffrgoeqivnprdnpvfjuhycpfydj"
+				+ "cpfcnkpyujljiesmuxhtizzvwhvpqylvcirwqsmpptyhcqybsts"
+				+ "fgjadicwzycswwmpluvzqdvnhkcofptqrzgjqtbvbdxylrylins"
+				+ "pncrkxclykccbwridpqckstxdjawvziucrswpsfmisqiozworib"
+				+ "eycuarcidbljslwbalcemgymnsxfziattdylrulwrybzztoxhev"
+				+ "sdnvvljfzzrgcmagshucoalfiuapgzpqgjjgqsmcvtdsvehewrv"
+				+ "tkeqwgmatqdpwlayjcxcavjmgpdyklrjcqvxjqbjucfubgmgpkf"
+				+ "dxznkhcejscymuildfnuxwmuklntnyycdcscioimenaeohgpbcp"
+				+ "ogyifcsatfxeslstkjclauqmywacizyapxlgtcchlxkvygzeucw"
+				+ "alhvhbwkvbceqajstxzzppcxoanhyfkgwaelsfdeeviqogjpres"
+				+ "noacegfeejyychabkhszcokdxpaqrprwfdahjqkfptwpeykgumy"
+				+ "emgkccynxuvbdpjlrbgqtcqulxodurugofuwzudnhgxdrbbxtrv"
+				+ "dnlodyhsifvyspejenpdckevzqrexplpcqtwtxlimfrsjumiygq"
+				+ "eemhihcxyngsemcolrnlyhqlbqbcestadoxtrdvcgucntjnfavylip\"";*/
+		
+		System.out.println ( "Longest Palindromic Substring :- " + longestPalindrome ( s ) );
+
+	}
+
+}

@@ -1,0 +1,32 @@
+package Problems;
+
+public class TrappingRainWater {
+	
+	static public int trap(int[] height) {
+		int units = 0;
+		
+		for(int i = 0; i < height.length; i++) {
+			System.out.println(i);
+			for(int j = i + 1; j < height.length; j++) {
+				if(height[j] >= height[i]) {
+					i = j - 1;
+					break;
+				}
+				else {
+					units += height[i] - height[j];
+				}
+			}
+		}
+		
+		return units;
+	}
+
+	public static void main(String[] args) {
+		
+		int height[] = {0,1,0,2,1,0,1,3,2,1,2,1};
+		//int height[] = {2, 0, 2};
+		System.out.println(trap(height));
+
+	}
+
+}

@@ -1,0 +1,12 @@
+package CodeChef;
+
+public class ChefinaandSwaps {
+
+	public static void main(String[] args) throws Exception {
+		
+		try (BufferedReader read = new BufferedReader (InputStreamReader (System.in))) {
+			
+		}
+	}
+
+}

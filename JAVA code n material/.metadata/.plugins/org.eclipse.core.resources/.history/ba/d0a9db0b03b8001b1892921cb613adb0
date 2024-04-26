@@ -1,0 +1,22 @@
+package learning;
+
+import java.util.Scanner;
+
+public class Inches {
+
+	public static void main(String[] args) {
+		
+		@SuppressWarnings("resource")
+		Scanner scanner = new Scanner (System.in);
+		
+		System.out.print("Enter a inches: ");
+		int inches = scanner.nextInt();
+		
+		int feet = inches/12;
+		int remaininginches = inches%12;
+		
+		System.out.print("Feet: " + feet);
+		System.out.print("Inches: " + inches);	
+	}
+
+}

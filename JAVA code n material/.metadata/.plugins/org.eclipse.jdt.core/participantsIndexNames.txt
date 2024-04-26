@@ -1,0 +1,3 @@
+INDEX VERSION 1.131
+D:\JAVA code n material\.metadata\.plugins\org.eclipse.jst.jsp.core\jspsearch\3898127309.index
+\CuMerchandise\src

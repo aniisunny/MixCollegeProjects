@@ -1,0 +1,42 @@
+package Recursion;
+
+public class ReverseString {
+	
+	static private void reverse(char[] str) {
+		int i = 0, j = str.length - 1;
+		helper(str, i, j);
+	}
+	
+	static private void helper(char[] str, int i, int j) {
+		if(i < j) {
+			char ch = str[i];
+			str[i] = str[j];
+			str[j] = ch;
+			i++;
+			j--;
+			helper(str, i, j);
+		}
+		for(char c : str)
+			System.out.print(c + " ");
+	}
+	
+	/*static private void reverseString(char []str) {
+		helper(0, str);
+	}
+	
+	static private void helper(int index, char []str) {
+		if(str == null || index >= str.length)
+			return;
+		helper(index + 1, str);
+		System.out.print(str[index]);
+	}*/
+
+	public static void main(String[] args) {
+		
+		char []str = { 'H', 'e', 'l', 'l', 'o'};
+		//reverseString(str);
+		reverse(str);
+		
+	}
+
+}
