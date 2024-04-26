@@ -1,0 +1,28 @@
+                  VEG PIZZAS
+
+Types of Pizza                    Price
+Margherita                        59
+Farm House                        129
+Peppy Paneer                      159
+Mexican Green Wave                189
+Deluxe Vaggie                     199
+5 Pepper                          249
+Veg Extravaganza                  289
+Cheeze n Corn                     109
+Paneer Makhani                    339
+Veggie Paradise                   409
+Fresh Veggie                      389
+
+                 NON VEG PIZZAS
+
+Types of Pizza                    Price
+Pepper Barbecue Chicken           159
+Chicken Tikka                     99
+Chicken Sausage                   199
+Chicken Golden Dellight           289
+Non Veg Supreme                   379
+Chicken Dominator                 489
+Peri-Peri Chicken                 449
+Pepper Barbecue & onion           369
+Chicken Fiesta                    679
+

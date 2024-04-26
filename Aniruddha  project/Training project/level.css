@@ -1,0 +1,52 @@
+body {
+	background:url("san.jpg");
+	background-position:center;
+	background-size:cover;
+	font-family:bookman;
+}
+h1 {
+	text-align:center;
+	color:#DC143C;
+	font-size:60;
+	font-family:algerian;
+	border-bottom:3px solid;
+}
+ul {
+	list-style-type:none;
+	overflow:hidden;
+}
+li {
+	float:left;
+}
+li a{
+	display:block;
+	color:#FFFF00;
+	font-size:20;
+	text-align:center;
+	padding:15px;
+	text-decoration:none;
+}
+li a:hover{
+	background-color:#111111;
+}
+h2 {
+	border-bottom:2px dashed;
+	font-size:40;
+	color:#00FF3F;
+	text-align:center;
+}
+h5 {
+	font-size:25;
+	color:#D1E231;
+	text-align:center;
+}
+form {
+	border-style:solid;
+	border-width:0px;
+}
+.level input[type="submit"]{
+	height:30px;
+	font-size:20px;
+	background:yellow;
+	color:black;
+}
