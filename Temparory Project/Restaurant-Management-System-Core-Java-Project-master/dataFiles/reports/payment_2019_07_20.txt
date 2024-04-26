@@ -1,0 +1,4 @@
+*********** Payment List (2019_07_20) ***********
+Order ID:1200  StaffName:Deepak Upadhyay                 Work time:0.00  Pay:100.00
+-------------------------------------------------------
+Total payment:$100.0(1)
