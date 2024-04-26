@@ -1,0 +1,15 @@
+.visualizer {
+    position: absolute;
+    left: 50px;
+    right: 80px;
+}
+
+.header {
+    margin-bottom: 36px;
+}
+
+.visualizer-bar {
+    width: 4px;
+    display: inline-block;
+    margin: 0 1px;
+}

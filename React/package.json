@@ -1,0 +1,29 @@
+{
+  "name": "package.json",
+  "version": "1.0.0",
+  "description": "React",
+  "main": "index.js",
+  "scripts": {
+    "test": "Hello world"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/aniisunny/React.git"
+  },
+  "keywords": [
+    "React"
+  ],
+  "author": "Anii",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/aniisunny/React/issues"
+  },
+  "homepage": "https://github.com/aniisunny/React#readme",
+  "dependencies": {
+    "babel-core": "^6.26.3",
+    "babel-loader": "^8.0.6",
+    "babel-preset-es2016": "^6.24.1",
+    "babel-preset-react": "^6.24.1",
+    "react": "^16.12.0"
+  }
+}
