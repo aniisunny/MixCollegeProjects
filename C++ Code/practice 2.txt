@@ -1,0 +1,81 @@
+// Example linked list program
+#include <iostream>
+#include <c stdlib>
+#include <c string>
+using namespace std;
+struct node
+{
+    int data;
+    struct node *next;
+};
+
+void insert(struct node **,int);
+int countlist(struct node *);
+void swap1(struct node *,int,int);
+bool looplist(struct node *);
+void midpoint(struct node *);
+void duplicasy(struct node *);
+
+int main()
+{
+    struct node *start=NULL;
+    int limit;
+    cin>>limit;
+    int i;
+    for(i=1;i<=limit;i++)
+        insert(&start,rand()%100000);
+        
+    cout<<countlist(start);
+    int data1,data2;
+    cin>>data1>>data2;
+    swap1(start,data1,data2);
+    cout<<looplist(start);
+    duplicasy(start);
+    display(start);
+    midpoint(
+    return 0;
+}
+    
+    void display(struct node *ptr)
+    {
+        if(ptr==NULL)
+            cout<<"\nList is empty";
+        else 
+        {
+            while(ptr!=0)
+            {
+                cout<<ptr->data<<"\t";
+                ptr=ptr->next;
+            }
+        }
+    }
+    
+    void insert(struct node **start,int n)
+    {
+        struct node *new=(struct node *)malloc(sizeof(struct node));
+        new1->data=n;
+        if(*start==0)
+        {
+            new->next=0;
+            *start=new1;
+        }
+        else
+        {
+            new1->next=*start;
+            *start=new1;
+        }
+    }
+    
+    int countlist(struct node *start)
+    {
+        if(start==NULL)
+            return 1;
+        return 1+ countlist(start->next);
+    }
+    
+    void swap1(struct node *start,int x,int y)
+    {
+        struct node*cx,*cy,*px,*py;
+    }
+    
+    
