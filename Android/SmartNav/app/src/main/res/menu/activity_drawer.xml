@@ -1,0 +1,32 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android">
+    <group>
+        <item android:id="@+id/task"
+            android:title="Tasks"/>
+        <item android:id="@+id/notifications"
+            android:title="Notifications"/>
+        <item android:id="@+id/shareLocation"
+            android:title="Share Location"/>
+        <item android:id="@+id/addRecipient"
+            android:title="Add Recipient"/>
+        <item android:id="@+id/conatcts"
+            android:title="My Contacts"/>
+        <item android:id="@+id/offlineMaps"
+            android:title="Offline Maps"/>
+        <item android:id="@+id/startDriving"
+            android:title="Start Driving"/>
+        <item android:id="@+id/review"
+            android:title="Review"/>
+        <item android:id="@+id/settings"
+            android:title="Settings"/>
+        <item android:id="@+id/bug"
+            android:title="Report a bug"/>
+        <item android:id="@+id/help"
+            android:title="Help"/>
+        <item android:id="@+id/aboutUs"
+            android:title="About Us"/>
+        <item android:id="@+id/logout"
+            android:title="Logout"/>
+    </group>
+
+</menu>

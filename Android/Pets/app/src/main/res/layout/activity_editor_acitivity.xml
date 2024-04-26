@@ -1,0 +1,133 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:orientation="vertical"
+    android:padding="16dp"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".EditorAcitivity">
+    
+    <LinearLayout
+        android:orientation="horizontal"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+
+        <TextView
+            android:id="@+id/overView"
+            android:text="Overview"
+            android:textColor="@color/colorAccent"
+            android:fontFamily="sans-serif-medium"
+            android:textAppearance="?android:textAppearanceSmall"
+            android:paddingTop="16dp"
+            android:layout_weight="1"
+            android:layout_width="0dp"
+            android:layout_height="wrap_content" />
+
+        <LinearLayout
+            android:orientation="vertical"
+            android:paddingLeft="4dp"
+            android:layout_weight="2"
+            android:layout_width="0dp"
+            android:layout_height="wrap_content">
+
+            <EditText
+                android:id="@+id/petName"
+                android:hint="Name"
+                android:inputType="textCapWords"
+                android:fontFamily="sans-serif-medium"
+                android:textAppearance="?android:textAppearanceMedium"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content" />
+
+            <EditText
+                android:id="@+id/breed"
+                android:hint="breed"
+                android:inputType="textCapWords"
+                android:fontFamily="sans-serif-medium"
+                android:textAppearance="?android:textAppearanceMedium"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content" />
+
+        </LinearLayout>
+
+    </LinearLayout>
+
+    <LinearLayout
+        android:id="@+id/gender"
+        android:orientation="horizontal"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+
+        <TextView
+            android:text="Gender"
+            android:textAppearance="?android:textAppearanceSmall"
+            android:fontFamily="sans-serif-medium"
+            android:paddingTop="4dp"
+            android:textColor="@color/colorAccent"
+            android:layout_weight="1"
+            android:layout_width="0dp"
+            android:layout_height="wrap_content" />
+        
+        <LinearLayout
+            android:orientation="vertical"
+            android:layout_weight="2"
+            android:layout_width="0dp"
+            android:layout_height="wrap_content">
+            
+            <Spinner
+                android:id="@+id/spinnerGender"
+                android:paddingRight="16dp"
+                android:spinnerMode="dropdown"
+                android:layout_width="wrap_content"
+                android:layout_height="48dp"/>
+
+        </LinearLayout>
+
+    </LinearLayout>
+
+    <LinearLayout
+        android:orientation="horizontal"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+        
+        <TextView
+            android:text="Measurement"
+            android:textColor="@color/colorAccent"
+            android:fontFamily="sans-serif-medium"
+            android:textAppearance="?android:textAppearanceSmall"
+            android:paddingTop="16dp"
+            android:layout_weight="1"
+            android:layout_width="0dp"
+            android:layout_height="wrap_content" />
+        
+        <RelativeLayout
+            android:paddingLeft="4dp"
+            android:layout_weight="2"
+            android:layout_width="0dp"
+            android:layout_height="wrap_content">
+            
+            <EditText
+                android:id="@+id/weight"
+                android:hint="Weight"
+                android:inputType="number"
+                android:fontFamily="sans-serif-light"
+                android:textAppearance="?android:textAppearanceMedium"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content" />
+            
+            <TextView
+                android:id="@+id/weightUnits"
+                android:text="Kg"
+                android:layout_alignParentRight="true"
+                android:paddingTop="16dp"
+                android:paddingRight="16dp"
+                android:textAppearance="?android:textAppearanceSmall"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content" />
+
+        </RelativeLayout>
+
+    </LinearLayout>
+
+</LinearLayout>

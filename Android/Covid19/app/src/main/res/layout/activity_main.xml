@@ -1,0 +1,66 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_margin="16dp"
+    android:background="@android:color/holo_red_dark"
+    android:orientation="vertical"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".MainActivity">
+
+    <Button
+        android:id="@+id/precautions"
+        android:text="Precautions"
+        android:textAllCaps="true"
+        android:layout_margin="8dp"
+        android:layout_gravity="center"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"/>
+
+    <Button
+        android:id="@+id/symptoms"
+        android:text="Symptoms"
+        android:textAllCaps="true"
+        android:layout_gravity="center"
+        android:layout_margin="8dp"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"/>
+
+    <Button
+        android:id="@+id/myth_busters"
+        android:text="Myth Busters"
+        android:textAllCaps="true"
+        android:layout_margin="8dp"
+        android:layout_gravity="center"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"/>
+
+    <Button
+        android:id="@+id/fake_news"
+        android:text="Fake Viral News"
+        android:textAllCaps="true"
+        android:layout_margin="8dp"
+        android:layout_gravity="center"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"/>
+
+    <Button
+        android:id="@+id/helpline_numbers"
+        android:text="Helpline Numbers"
+        android:textAllCaps="true"
+        android:layout_gravity="center"
+        android:layout_margin="8dp"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"/>
+
+    <Button
+        android:id="@+id/faq"
+        android:text="FAQ"
+        android:textAllCaps="true"
+        android:layout_margin="8dp"
+        android:layout_gravity="center"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"/>
+
+</LinearLayout>

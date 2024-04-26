@@ -1,0 +1,1292 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+    <LinearLayout
+        android:orientation="vertical"
+        android:layout_margin="8dp"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+
+        <TextView
+            android:maxLines="1"
+            android:textColor="@android:color/black"
+            android:gravity="center_horizontal"
+            android:layout_marginBottom="8dp"
+            android:text="Central Helpline Number for corona-virus:- +91-11-23978046"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"/>
+
+        <TextView
+            android:maxLines="1"
+            android:gravity="center_horizontal"
+            android:textColor="@android:color/black"
+            android:layout_marginBottom="12dp"
+            android:text="Helpline Numbers of States and Union Territories(UTs)"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"/>
+
+        <LinearLayout
+            android:orientation="horizontal"
+            android:layout_marginBottom="4dp"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent">
+
+            <TextView
+                android:text="S.No."
+                android:textSize="14sp"
+                android:textColor="@android:color/black"
+                android:layout_weight="0.2"
+                android:paddingLeft="4dp"
+                android:layout_width="0dp"
+                android:layout_height="wrap_content"/>
+
+            <TextView
+                android:text="Name of the State"
+                android:textColor="@android:color/black"
+                android:textSize="14sp"
+                android:paddingLeft="4dp"
+                android:layout_weight="0.4"
+                android:layout_width="0dp"
+                android:layout_height="wrap_content"/>
+
+            <TextView
+                android:text="Helpline Nos."
+                android:textSize="14sp"
+                android:textColor="@android:color/black"
+                android:paddingLeft="4dp"
+                android:layout_weight="0.4"
+                android:layout_width="0dp"
+                android:layout_height="wrap_content"/>
+
+        </LinearLayout>
+
+        <LinearLayout
+            android:orientation="horizontal"
+            android:layout_marginBottom="4dp"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent">
+
+            <TextView
+                android:text="1"
+                android:layout_weight="0.2"
+                android:paddingLeft="4dp"
+                android:textSize="14sp"
+                android:layout_width="0dp"
+                android:layout_height="wrap_content"/>
+
+            <TextView
+                android:text="Andhra Pradesh"
+                android:paddingLeft="4dp"
+                android:layout_weight="0.4"
+                android:textSize="14sp"
+                android:layout_width="0dp"
+                android:layout_height="wrap_content"/>
+
+            <TextView
+                android:id="@+id/number1"
+                android:text="0866-2410978"
+                android:textSize="14sp"
+                android:paddingLeft="4dp"
+                android:layout_weight="0.4"
+                android:layout_width="0dp"
+                android:layout_height="wrap_content"/>
+
+        </LinearLayout>
+
+        <LinearLayout
+            android:orientation="horizontal"
+            android:layout_marginBottom="4dp"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent">
+
+            <TextView
+                android:text="2"
+                android:layout_weight="0.2"
+                android:paddingLeft="4dp"
+                android:textSize="14sp"
+                android:layout_width="0dp"
+                android:layout_height="wrap_content"/>
+
+            <TextView
+                android:text="Arunachal Pradesh"
+                android:paddingLeft="4dp"
+                android:layout_weight="0.4"
+                android:textSize="14sp"
+                android:layout_width="0dp"
+                android:layout_height="wrap_content"/>
+
+            <TextView
+                android:id="@+id/number2"
+                android:text="9436055743"
+                android:textSize="14sp"
+                android:paddingLeft="4dp"
+                android:layout_weight="0.4"
+                android:layout_width="0dp"
+                android:layout_height="wrap_content"/>
+
+        </LinearLayout>
+
+        <LinearLayout
+            android:orientation="horizontal"
+            android:layout_marginBottom="4dp"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent">
+
+            <TextView
+                android:text="3"
+                android:layout_weight="0.2"
+                android:paddingLeft="4dp"
+                android:textSize="14sp"
+                android:layout_width="0dp"
+                android:layout_height="wrap_content"/>
+
+            <TextView
+                android:text="Assam"
+                android:paddingLeft="4dp"
+                android:layout_weight="0.4"
+                android:textSize="14sp"
+                android:layout_width="0dp"
+                android:layout_height="wrap_content"/>
+
+            <TextView
+                android:id="@+id/number3"
+                android:text="6913347770"
+                android:textSize="14sp"
+                android:paddingLeft="4dp"
+                android:layout_weight="0.4"
+                android:layout_width="0dp"
+                android:layout_height="wrap_content"/>
+
+        </LinearLayout>
+
+        <LinearLayout
+            android:orientation="horizontal"
+            android:layout_marginBottom="4dp"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent">
+
+            <TextView
+                android:text="4"
+                android:layout_weight="0.2"
+                android:paddingLeft="4dp"
+                android:textSize="14sp"
+                android:layout_width="0dp"
+                android:layout_height="wrap_content"/>
+
+            <TextView
+                android:text="Bihar"
+                android:paddingLeft="4dp"
+                android:layout_weight="0.4"
+                android:textSize="14sp"
+                android:layout_width="0dp"
+                android:layout_height="wrap_content"/>
+
+            <TextView
+                android:id="@+id/number4"
+                android:text="104"
+                android:textSize="14sp"
+                android:paddingLeft="4dp"
+                android:layout_weight="0.4"
+                android:layout_width="0dp"
+                android:layout_height="wrap_content"/>
+
+        </LinearLayout>
+
+        <LinearLayout
+            android:orientation="horizontal"
+            android:layout_marginBottom="4dp"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent">
+
+            <TextView
+                android:text="5"
+                android:layout_weight="0.2"
+                android:paddingLeft="4dp"
+                android:textSize="14sp"
+                android:layout_width="0dp"
+                android:layout_height="wrap_content"/>
+
+            <TextView
+                android:text="Chhattisgarh"
+                android:paddingLeft="4dp"
+                android:layout_weight="0.4"
+                android:textSize="14sp"
+                android:layout_width="0dp"
+                android:layout_height="wrap_content"/>
+
+            <TextView
+                android:id="@+id/number5"
+                android:text="104"
+                android:textSize="14sp"
+                android:paddingLeft="4dp"
+                android:layout_weight="0.4"
+                android:layout_width="0dp"
+                android:layout_height="wrap_content"/>
+
+        </LinearLayout>
+
+        <LinearLayout
+            android:orientation="horizontal"
+            android:layout_marginBottom="4dp"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent">
+
+            <TextView
+                android:text="6"
+                android:layout_weight="0.2"
+                android:paddingLeft="4dp"
+                android:textSize="14sp"
+                android:layout_width="0dp"
+                android:layout_height="wrap_content"/>
+
+            <TextView
+                android:text="Goa"
+                android:paddingLeft="4dp"
+                android:layout_weight="0.4"
+                android:textSize="14sp"
+                android:layout_width="0dp"
+                android:layout_height="wrap_content"/>
+
+            <TextView
+                android:id="@+id/number6"
+                android:text="104"
+                android:textSize="14sp"
+                android:paddingLeft="4dp"
+                android:layout_weight="0.4"
+                android:layout_width="0dp"
+                android:layout_height="wrap_content"/>
+
+        </LinearLayout>
+
+        <LinearLayout
+            android:orientation="horizontal"
+            android:layout_marginBottom="4dp"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent">
+
+            <TextView
+                android:text="7"
+                android:layout_weight="0.2"
+                android:paddingLeft="4dp"
+                android:textSize="14sp"
+                android:layout_width="0dp"
+                android:layout_height="wrap_content"/>
+
+            <TextView
+                android:text="Gujarat"
+                android:paddingLeft="4dp"
+                android:layout_weight="0.4"
+                android:textSize="14sp"
+                android:layout_width="0dp"
+                android:layout_height="wrap_content"/>
+
+            <TextView
+                android:id="@+id/number7"
+                android:text="104"
+                android:textSize="14sp"
+                android:paddingLeft="4dp"
+                android:layout_weight="0.4"
+                android:layout_width="0dp"
+                android:layout_height="wrap_content"/>
+
+        </LinearLayout>
+
+        <LinearLayout
+            android:orientation="horizontal"
+            android:layout_marginBottom="4dp"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent">
+
+            <TextView
+                android:text="8"
+                android:layout_weight="0.2"
+                android:paddingLeft="4dp"
+                android:textSize="14sp"
+                android:layout_width="0dp"
+                android:layout_height="wrap_content"/>
+
+            <TextView
+                android:text="Haryana"
+                android:paddingLeft="4dp"
+                android:layout_weight="0.4"
+                android:textSize="14sp"
+                android:layout_width="0dp"
+                android:layout_height="wrap_content"/>
+
+            <TextView
+                android:id="@+id/number8"
+                android:text="8558893911"
+                android:textSize="14sp"
+                android:paddingLeft="4dp"
+                android:layout_weight="0.4"
+                android:layout_width="0dp"
+                android:layout_height="wrap_content"/>
+
+        </LinearLayout>
+
+        <LinearLayout
+            android:orientation="horizontal"
+            android:layout_marginBottom="4dp"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent">
+
+            <TextView
+                android:text="9"
+                android:layout_weight="0.2"
+                android:paddingLeft="4dp"
+                android:textSize="14sp"
+                android:layout_width="0dp"
+                android:layout_height="wrap_content"/>
+
+            <TextView
+                android:text="Himachal Pradesh"
+                android:paddingLeft="4dp"
+                android:layout_weight="0.4"
+                android:textSize="14sp"
+                android:layout_width="0dp"
+                android:layout_height="wrap_content"/>
+
+            <TextView
+                android:id="@+id/number9"
+                android:text="104"
+                android:textSize="14sp"
+                android:paddingLeft="4dp"
+                android:layout_weight="0.4"
+                android:layout_width="0dp"
+                android:layout_height="wrap_content"/>
+
+        </LinearLayout>
+
+        <LinearLayout
+            android:orientation="horizontal"
+            android:layout_marginBottom="4dp"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent">
+
+            <TextView
+                android:text="10"
+                android:layout_weight="0.2"
+                android:paddingLeft="4dp"
+                android:textSize="14sp"
+                android:layout_width="0dp"
+                android:layout_height="wrap_content"/>
+
+            <TextView
+                android:text="Jharkhand"
+                android:paddingLeft="4dp"
+                android:layout_weight="0.4"
+                android:textSize="14sp"
+                android:layout_width="0dp"
+                android:layout_height="wrap_content"/>
+
+            <TextView
+                android:id="@+id/number10"
+                android:text="104"
+                android:textSize="14sp"
+                android:paddingLeft="4dp"
+                android:layout_weight="0.4"
+                android:layout_width="0dp"
+                android:layout_height="wrap_content"/>
+
+        </LinearLayout>
+
+        <LinearLayout
+            android:orientation="horizontal"
+            android:layout_marginBottom="4dp"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent">
+
+            <TextView
+                android:text="11"
+                android:layout_weight="0.2"
+                android:paddingLeft="4dp"
+                android:textSize="14sp"
+                android:layout_width="0dp"
+                android:layout_height="wrap_content"/>
+
+            <TextView
+                android:text="Karnataka"
+                android:paddingLeft="4dp"
+                android:layout_weight="0.4"
+                android:textSize="14sp"
+                android:layout_width="0dp"
+                android:layout_height="wrap_content"/>
+
+            <TextView
+                android:id="@+id/number11"
+                android:text="104"
+                android:textSize="14sp"
+                android:paddingLeft="4dp"
+                android:layout_weight="0.4"
+                android:layout_width="0dp"
+                android:layout_height="wrap_content"/>
+
+        </LinearLayout>
+
+        <LinearLayout
+            android:orientation="horizontal"
+            android:layout_marginBottom="4dp"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent">
+
+            <TextView
+                android:text="12"
+                android:layout_weight="0.2"
+                android:paddingLeft="4dp"
+                android:textSize="14sp"
+                android:layout_width="0dp"
+                android:layout_height="wrap_content"/>
+
+            <TextView
+                android:text="Kerala"
+                android:paddingLeft="4dp"
+                android:layout_weight="0.4"
+                android:textSize="14sp"
+                android:layout_width="0dp"
+                android:layout_height="wrap_content"/>
+
+            <TextView
+                android:id="@+id/number12"
+                android:text="0471-2552026"
+                android:textSize="14sp"
+                android:paddingLeft="4dp"
+                android:layout_weight="0.4"
+                android:layout_width="0dp"
+                android:layout_height="wrap_content"/>
+
+        </LinearLayout>
+
+        <LinearLayout
+            android:orientation="horizontal"
+            android:layout_marginBottom="4dp"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent">
+
+            <TextView
+                android:text="13"
+                android:layout_weight="0.2"
+                android:paddingLeft="4dp"
+                android:textSize="14sp"
+                android:layout_width="0dp"
+                android:layout_height="wrap_content"/>
+
+            <TextView
+                android:text="Madhya Pradesh"
+                android:paddingLeft="4dp"
+                android:layout_weight="0.4"
+                android:textSize="14sp"
+                android:layout_width="0dp"
+                android:layout_height="wrap_content"/>
+
+            <TextView
+                android:id="@+id/number13"
+                android:text="0755-2527177"
+                android:textSize="14sp"
+                android:paddingLeft="4dp"
+                android:layout_weight="0.4"
+                android:layout_width="0dp"
+                android:layout_height="wrap_content"/>
+
+        </LinearLayout>
+
+        <LinearLayout
+            android:orientation="horizontal"
+            android:layout_marginBottom="4dp"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent">
+
+            <TextView
+                android:text="14"
+                android:layout_weight="0.2"
+                android:paddingLeft="4dp"
+                android:textSize="14sp"
+                android:layout_width="0dp"
+                android:layout_height="wrap_content"/>
+
+            <TextView
+                android:text="Maharashtra"
+                android:paddingLeft="4dp"
+                android:layout_weight="0.4"
+                android:textSize="14sp"
+                android:layout_width="0dp"
+                android:layout_height="wrap_content"/>
+
+            <TextView
+                android:id="@+id/number14"
+                android:text="020-26127394"
+                android:textSize="14sp"
+                android:paddingLeft="4dp"
+                android:layout_weight="0.4"
+                android:layout_width="0dp"
+                android:layout_height="wrap_content"/>
+
+        </LinearLayout>
+
+        <LinearLayout
+            android:orientation="horizontal"
+            android:layout_marginBottom="4dp"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent">
+
+            <TextView
+                android:text="15"
+                android:layout_weight="0.2"
+                android:paddingLeft="4dp"
+                android:textSize="14sp"
+                android:layout_width="0dp"
+                android:layout_height="wrap_content"/>
+
+            <TextView
+                android:text="Manipur"
+                android:paddingLeft="4dp"
+                android:layout_weight="0.4"
+                android:textSize="14sp"
+                android:layout_width="0dp"
+                android:layout_height="wrap_content"/>
+
+            <TextView
+                android:id="@+id/number15"
+                android:text="3852411668"
+                android:textSize="14sp"
+                android:paddingLeft="4dp"
+                android:layout_weight="0.4"
+                android:layout_width="0dp"
+                android:layout_height="wrap_content"/>
+
+        </LinearLayout>
+
+        <LinearLayout
+            android:orientation="horizontal"
+            android:layout_marginBottom="4dp"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent">
+
+            <TextView
+                android:text="16"
+                android:layout_weight="0.2"
+                android:paddingLeft="4dp"
+                android:textSize="14sp"
+                android:layout_width="0dp"
+                android:layout_height="wrap_content"/>
+
+            <TextView
+                android:text="Meghalaya"
+                android:paddingLeft="4dp"
+                android:layout_weight="0.4"
+                android:textSize="14sp"
+                android:layout_width="0dp"
+                android:layout_height="wrap_content"/>
+
+            <TextView
+                android:id="@+id/number16"
+                android:text="108"
+                android:textSize="14sp"
+                android:paddingLeft="4dp"
+                android:layout_weight="0.4"
+                android:layout_width="0dp"
+                android:layout_height="wrap_content"/>
+
+        </LinearLayout>
+
+        <LinearLayout
+            android:orientation="horizontal"
+            android:layout_marginBottom="4dp"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent">
+
+            <TextView
+                android:text="17"
+                android:layout_weight="0.2"
+                android:paddingLeft="4dp"
+                android:textSize="14sp"
+                android:layout_width="0dp"
+                android:layout_height="wrap_content"/>
+
+            <TextView
+                android:text="Mizoram"
+                android:paddingLeft="4dp"
+                android:layout_weight="0.4"
+                android:textSize="14sp"
+                android:layout_width="0dp"
+                android:layout_height="wrap_content"/>
+
+            <TextView
+                android:id="@+id/number17"
+                android:text="102"
+                android:textSize="14sp"
+                android:paddingLeft="4dp"
+                android:layout_weight="0.4"
+                android:layout_width="0dp"
+                android:layout_height="wrap_content"/>
+
+        </LinearLayout>
+
+        <LinearLayout
+            android:orientation="horizontal"
+            android:layout_marginBottom="4dp"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent">
+
+            <TextView
+                android:text="18"
+                android:layout_weight="0.2"
+                android:paddingLeft="4dp"
+                android:textSize="14sp"
+                android:layout_width="0dp"
+                android:layout_height="wrap_content"/>
+
+            <TextView
+                android:text="Nagaland"
+                android:paddingLeft="4dp"
+                android:layout_weight="0.4"
+                android:textSize="14sp"
+                android:layout_width="0dp"
+                android:layout_height="wrap_content"/>
+
+            <TextView
+                android:id="@+id/number18"
+                android:text="7005539653 "
+                android:textSize="14sp"
+                android:paddingLeft="4dp"
+                android:layout_weight="0.4"
+                android:layout_width="0dp"
+                android:layout_height="wrap_content"/>
+
+        </LinearLayout>
+
+        <LinearLayout
+            android:orientation="horizontal"
+            android:layout_marginBottom="4dp"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent">
+
+            <TextView
+                android:text="19"
+                android:layout_weight="0.2"
+                android:paddingLeft="4dp"
+                android:textSize="14sp"
+                android:layout_width="0dp"
+                android:layout_height="wrap_content"/>
+
+            <TextView
+                android:text="Odisha"
+                android:paddingLeft="4dp"
+                android:layout_weight="0.4"
+                android:textSize="14sp"
+                android:layout_width="0dp"
+                android:layout_height="wrap_content"/>
+
+            <TextView
+                android:id="@+id/number19"
+                android:text="9439994859"
+                android:textSize="14sp"
+                android:paddingLeft="4dp"
+                android:layout_weight="0.4"
+                android:layout_width="0dp"
+                android:layout_height="wrap_content"/>
+
+        </LinearLayout>
+
+        <LinearLayout
+            android:orientation="horizontal"
+            android:layout_marginBottom="4dp"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent">
+
+            <TextView
+                android:text="20"
+                android:layout_weight="0.2"
+                android:paddingLeft="4dp"
+                android:textSize="14sp"
+                android:layout_width="0dp"
+                android:layout_height="wrap_content"/>
+
+            <TextView
+                android:text="Punjab"
+                android:paddingLeft="4dp"
+                android:layout_weight="0.4"
+                android:textSize="14sp"
+                android:layout_width="0dp"
+                android:layout_height="wrap_content"/>
+
+            <TextView
+                android:id="@+id/number20"
+                android:text="104"
+                android:textSize="14sp"
+                android:paddingLeft="4dp"
+                android:layout_weight="0.4"
+                android:layout_width="0dp"
+                android:layout_height="wrap_content"/>
+
+        </LinearLayout>
+
+        <LinearLayout
+            android:orientation="horizontal"
+            android:layout_marginBottom="4dp"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent">
+
+            <TextView
+                android:text="21"
+                android:layout_weight="0.2"
+                android:paddingLeft="4dp"
+                android:textSize="14sp"
+                android:layout_width="0dp"
+                android:layout_height="wrap_content"/>
+
+            <TextView
+                android:text="Rajasthan"
+                android:paddingLeft="4dp"
+                android:layout_weight="0.4"
+                android:textSize="14sp"
+                android:layout_width="0dp"
+                android:layout_height="wrap_content"/>
+
+            <TextView
+                android:id="@+id/number21"
+                android:text="0141-2225624"
+                android:textSize="14sp"
+                android:paddingLeft="4dp"
+                android:layout_weight="0.4"
+                android:layout_width="0dp"
+                android:layout_height="wrap_content"/>
+
+        </LinearLayout>
+
+        <LinearLayout
+            android:orientation="horizontal"
+            android:layout_marginBottom="4dp"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent">
+
+            <TextView
+                android:text="22"
+                android:layout_weight="0.2"
+                android:paddingLeft="4dp"
+                android:textSize="14sp"
+                android:layout_width="0dp"
+                android:layout_height="wrap_content"/>
+
+            <TextView
+                android:text="Sikkim"
+                android:paddingLeft="4dp"
+                android:layout_weight="0.4"
+                android:textSize="14sp"
+                android:layout_width="0dp"
+                android:layout_height="wrap_content"/>
+
+            <TextView
+                android:id="@+id/number22"
+                android:text="104"
+                android:textSize="14sp"
+                android:paddingLeft="4dp"
+                android:layout_weight="0.4"
+                android:layout_width="0dp"
+                android:layout_height="wrap_content"/>
+
+        </LinearLayout>
+
+        <LinearLayout
+            android:orientation="horizontal"
+            android:layout_marginBottom="4dp"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent">
+
+            <TextView
+                android:text="23"
+                android:layout_weight="0.2"
+                android:paddingLeft="4dp"
+                android:textSize="14sp"
+                android:layout_width="0dp"
+                android:layout_height="wrap_content"/>
+
+            <TextView
+                android:text="Tamil Nadu"
+                android:paddingLeft="4dp"
+                android:layout_weight="0.4"
+                android:textSize="14sp"
+                android:layout_width="0dp"
+                android:layout_height="wrap_content"/>
+
+            <TextView
+                android:id="@+id/number23"
+                android:text="044-29510500"
+                android:textSize="14sp"
+                android:paddingLeft="4dp"
+                android:layout_weight="0.4"
+                android:layout_width="0dp"
+                android:layout_height="wrap_content"/>
+
+        </LinearLayout>
+
+        <LinearLayout
+            android:orientation="horizontal"
+            android:layout_marginBottom="4dp"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent">
+
+            <TextView
+                android:text="24"
+                android:layout_weight="0.2"
+                android:paddingLeft="4dp"
+                android:textSize="14sp"
+                android:layout_width="0dp"
+                android:layout_height="wrap_content"/>
+
+            <TextView
+                android:text="Telangana"
+                android:paddingLeft="4dp"
+                android:layout_weight="0.4"
+                android:textSize="14sp"
+                android:layout_width="0dp"
+                android:layout_height="wrap_content"/>
+
+            <TextView
+                android:id="@+id/number24"
+                android:text="104"
+                android:textSize="14sp"
+                android:paddingLeft="4dp"
+                android:layout_weight="0.4"
+                android:layout_width="0dp"
+                android:layout_height="wrap_content"/>
+
+        </LinearLayout>
+
+        <LinearLayout
+            android:orientation="horizontal"
+            android:layout_marginBottom="4dp"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent">
+
+            <TextView
+                android:text="25"
+                android:layout_weight="0.2"
+                android:paddingLeft="4dp"
+                android:textSize="14sp"
+                android:layout_width="0dp"
+                android:layout_height="wrap_content"/>
+
+            <TextView
+                android:text="Tripura"
+                android:paddingLeft="4dp"
+                android:layout_weight="0.4"
+                android:textSize="14sp"
+                android:layout_width="0dp"
+                android:layout_height="wrap_content"/>
+
+            <TextView
+                android:id="@+id/number25"
+                android:text="0381-2315879"
+                android:textSize="14sp"
+                android:paddingLeft="4dp"
+                android:layout_weight="0.4"
+                android:layout_width="0dp"
+                android:layout_height="wrap_content"/>
+
+        </LinearLayout>
+
+        <LinearLayout
+            android:orientation="horizontal"
+            android:layout_marginBottom="4dp"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent">
+
+            <TextView
+                android:text="26"
+                android:layout_weight="0.2"
+                android:paddingLeft="4dp"
+                android:textSize="14sp"
+                android:layout_width="0dp"
+                android:layout_height="wrap_content"/>
+
+            <TextView
+                android:text="Uttarakhand"
+                android:paddingLeft="4dp"
+                android:layout_weight="0.4"
+                android:textSize="14sp"
+                android:layout_width="0dp"
+                android:layout_height="wrap_content"/>
+
+            <TextView
+                android:id="@+id/number26"
+                android:text="104"
+                android:textSize="14sp"
+                android:paddingLeft="4dp"
+                android:layout_weight="0.4"
+                android:layout_width="0dp"
+                android:layout_height="wrap_content"/>
+
+        </LinearLayout>
+
+        <LinearLayout
+            android:orientation="horizontal"
+            android:layout_marginBottom="4dp"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent">
+
+            <TextView
+                android:text="27"
+                android:layout_weight="0.2"
+                android:paddingLeft="4dp"
+                android:textSize="14sp"
+                android:layout_width="0dp"
+                android:layout_height="wrap_content"/>
+
+            <TextView
+                android:text="Uttar Pradesh"
+                android:paddingLeft="4dp"
+                android:layout_weight="0.4"
+                android:textSize="14sp"
+                android:layout_width="0dp"
+                android:layout_height="wrap_content"/>
+
+            <TextView
+                android:id="@+id/number27"
+                android:text="18001805145"
+                android:textSize="14sp"
+                android:paddingLeft="4dp"
+                android:layout_weight="0.4"
+                android:layout_width="0dp"
+                android:layout_height="wrap_content"/>
+
+        </LinearLayout>
+
+        <LinearLayout
+            android:orientation="horizontal"
+            android:layout_marginBottom="4dp"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent">
+
+            <TextView
+                android:text="28"
+                android:layout_weight="0.2"
+                android:paddingLeft="4dp"
+                android:textSize="14sp"
+                android:layout_width="0dp"
+                android:layout_height="wrap_content"/>
+
+            <TextView
+                android:text="West Bengal"
+                android:paddingLeft="4dp"
+                android:layout_weight="0.4"
+                android:textSize="14sp"
+                android:layout_width="0dp"
+                android:layout_height="wrap_content"/>
+
+            <TextView
+                android:id="@+id/number28"
+                android:text="1800313444222, 03323412600"
+                android:textSize="14sp"
+                android:paddingLeft="4dp"
+                android:layout_weight="0.4"
+                android:layout_width="0dp"
+                android:layout_height="wrap_content"/>
+
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_marginTop="10dp"
+            android:orientation="horizontal"
+            android:layout_marginBottom="4dp"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent">
+
+            <TextView
+                android:text="S.No."
+                android:textSize="14sp"
+                android:textColor="@android:color/black"
+                android:layout_weight="0.2"
+                android:paddingLeft="4dp"
+                android:layout_width="0dp"
+                android:layout_height="wrap_content"/>
+
+            <TextView
+                android:text="Name of Union Territory(UT)"
+                android:textColor="@android:color/black"
+                android:textSize="14sp"
+                android:paddingLeft="4dp"
+                android:layout_weight="0.4"
+                android:layout_width="0dp"
+                android:layout_height="wrap_content"/>
+
+            <TextView
+                android:text="Helpline Nos."
+                android:textSize="14sp"
+                android:textColor="@android:color/black"
+                android:paddingLeft="4dp"
+                android:layout_weight="0.4"
+                android:layout_width="0dp"
+                android:layout_height="wrap_content"/>
+
+        </LinearLayout>
+
+        <LinearLayout
+            android:orientation="horizontal"
+            android:layout_marginBottom="4dp"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent">
+
+            <TextView
+                android:text="1"
+                android:layout_weight="0.2"
+                android:paddingLeft="4dp"
+                android:textSize="14sp"
+                android:layout_width="0dp"
+                android:layout_height="wrap_content"/>
+
+            <TextView
+                android:text="Andaman and Nicobar Islands"
+                android:paddingLeft="4dp"
+                android:layout_weight="0.4"
+                android:textSize="14sp"
+                android:layout_width="0dp"
+                android:layout_height="wrap_content"/>
+
+            <TextView
+                android:id="@+id/number29"
+                android:text="03192-232102"
+                android:textSize="14sp"
+                android:paddingLeft="4dp"
+                android:layout_weight="0.4"
+                android:layout_width="0dp"
+                android:layout_height="wrap_content"/>
+
+        </LinearLayout>
+
+        <LinearLayout
+            android:orientation="horizontal"
+            android:layout_marginBottom="4dp"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent">
+
+            <TextView
+                android:text="2"
+                android:layout_weight="0.2"
+                android:paddingLeft="4dp"
+                android:textSize="14sp"
+                android:layout_width="0dp"
+                android:layout_height="wrap_content"/>
+
+            <TextView
+                android:text="Chandigarh"
+                android:paddingLeft="4dp"
+                android:layout_weight="0.4"
+                android:textSize="14sp"
+                android:layout_width="0dp"
+                android:layout_height="wrap_content"/>
+
+            <TextView
+                android:id="@+id/number30"
+                android:text="9779558282"
+                android:textSize="14sp"
+                android:paddingLeft="4dp"
+                android:layout_weight="0.4"
+                android:layout_width="0dp"
+                android:layout_height="wrap_content"/>
+
+        </LinearLayout>
+
+        <LinearLayout
+            android:orientation="horizontal"
+            android:layout_marginBottom="4dp"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent">
+
+            <TextView
+                android:text="3"
+                android:layout_weight="0.2"
+                android:paddingLeft="4dp"
+                android:textSize="14sp"
+                android:layout_width="0dp"
+                android:layout_height="wrap_content"/>
+
+            <TextView
+                android:text="Dadra and Nagar Haveli and Daman and Diu"
+                android:paddingLeft="4dp"
+                android:layout_weight="0.4"
+                android:textSize="14sp"
+                android:layout_width="0dp"
+                android:layout_height="wrap_content"/>
+
+            <TextView
+                android:id="@+id/number31"
+                android:text="104"
+                android:textSize="14sp"
+                android:paddingLeft="4dp"
+                android:layout_weight="0.4"
+                android:layout_width="0dp"
+                android:layout_height="wrap_content"/>
+
+        </LinearLayout>
+
+        <LinearLayout
+            android:orientation="horizontal"
+            android:layout_marginBottom="4dp"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent">
+
+            <TextView
+                android:text="4"
+                android:layout_weight="0.2"
+                android:paddingLeft="4dp"
+                android:textSize="14sp"
+                android:layout_width="0dp"
+                android:layout_height="wrap_content"/>
+
+            <TextView
+                android:text="Delhi"
+                android:paddingLeft="4dp"
+                android:layout_weight="0.4"
+                android:textSize="14sp"
+                android:layout_width="0dp"
+                android:layout_height="wrap_content"/>
+
+            <TextView
+                android:id="@+id/number32"
+                android:text="011-22307145"
+                android:textSize="14sp"
+                android:paddingLeft="4dp"
+                android:layout_weight="0.4"
+                android:layout_width="0dp"
+                android:layout_height="wrap_content"/>
+
+        </LinearLayout>
+
+        <LinearLayout
+            android:orientation="horizontal"
+            android:layout_marginBottom="4dp"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent">
+
+            <TextView
+                android:text="5"
+                android:layout_weight="0.2"
+                android:paddingLeft="4dp"
+                android:textSize="14sp"
+                android:layout_width="0dp"
+                android:layout_height="wrap_content"/>
+
+            <TextView
+                android:text="Jammu and Kashmir"
+                android:paddingLeft="4dp"
+                android:layout_weight="0.4"
+                android:textSize="14sp"
+                android:layout_width="0dp"
+                android:layout_height="wrap_content"/>
+
+            <TextView
+                android:id="@+id/number33"
+                android:text="01912520982, 0194-2440283"
+                android:textSize="14sp"
+                android:paddingLeft="4dp"
+                android:layout_weight="0.4"
+                android:layout_width="0dp"
+                android:layout_height="wrap_content"/>
+
+        </LinearLayout>
+
+        <LinearLayout
+            android:orientation="horizontal"
+            android:layout_marginBottom="4dp"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent">
+
+            <TextView
+                android:text="6"
+                android:layout_weight="0.2"
+                android:paddingLeft="4dp"
+                android:textSize="14sp"
+                android:layout_width="0dp"
+                android:layout_height="wrap_content"/>
+
+            <TextView
+                android:text="Ladakh"
+                android:paddingLeft="4dp"
+                android:layout_weight="0.4"
+                android:textSize="14sp"
+                android:layout_width="0dp"
+                android:layout_height="wrap_content"/>
+
+            <TextView
+                android:id="@+id/number34"
+                android:text="01982256462"
+                android:textSize="14sp"
+                android:paddingLeft="4dp"
+                android:layout_weight="0.4"
+                android:layout_width="0dp"
+                android:layout_height="wrap_content"/>
+
+        </LinearLayout>
+
+        <LinearLayout
+            android:orientation="horizontal"
+            android:layout_marginBottom="4dp"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent">
+
+            <TextView
+                android:text="7"
+                android:layout_weight="0.2"
+                android:paddingLeft="4dp"
+                android:textSize="14sp"
+                android:layout_width="0dp"
+                android:layout_height="wrap_content"/>
+
+            <TextView
+                android:text="Lakshadweep"
+                android:paddingLeft="4dp"
+                android:layout_weight="0.4"
+                android:textSize="14sp"
+                android:layout_width="0dp"
+                android:layout_height="wrap_content"/>
+
+            <TextView
+                android:id="@+id/number35"
+                android:text="104"
+                android:textSize="14sp"
+                android:paddingLeft="4dp"
+                android:layout_weight="0.4"
+                android:layout_width="0dp"
+                android:layout_height="wrap_content"/>
+
+        </LinearLayout>
+
+        <LinearLayout
+            android:orientation="horizontal"
+            android:layout_marginBottom="4dp"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent">
+
+            <TextView
+                android:text="8"
+                android:layout_weight="0.2"
+                android:paddingLeft="4dp"
+                android:textSize="14sp"
+                android:layout_width="0dp"
+                android:layout_height="wrap_content"/>
+
+            <TextView
+                android:text="Pudcherry"
+                android:paddingLeft="4dp"
+                android:layout_weight="0.4"
+                android:textSize="14sp"
+                android:layout_width="0dp"
+                android:layout_height="wrap_content"/>
+
+            <TextView
+                android:id="@+id/number36"
+                android:text="104"
+                android:textSize="14sp"
+                android:paddingLeft="4dp"
+                android:layout_weight="0.4"
+                android:layout_width="0dp"
+                android:layout_height="wrap_content"/>
+
+        </LinearLayout>
+
+    </LinearLayout>
+
+</ScrollView>

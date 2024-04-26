@@ -1,0 +1,195 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+    <LinearLayout
+        android:orientation="vertical"
+        android:layout_margin="16dp"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+
+        <TextView
+            android:textSize="16sp"
+            android:paddingLeft="2dp"
+            android:layout_marginBottom="3dp"
+            android:textColor="@android:color/black"
+            android:text="1. What is 2019 Novel Coronavirus?"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"/>
+
+        <TextView
+            android:textSize="16sp"
+            android:paddingLeft="2dp"
+            android:layout_marginBottom="10dp"
+            android:textColor="@android:color/black"
+            android:text="   2019 Novel Coronavirus, or COVID-19, is a new virus first identified in Wuhan, Hubei Province, China. It is named novel as it has not been previosly identified."
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"/>
+
+        <TextView
+            android:textSize="16sp"
+            android:paddingLeft="2dp"
+            android:layout_marginBottom="3dp"
+            android:textColor="@android:color/black"
+            android:text="2. What is the source of COVID-19?"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"/>
+
+        <TextView
+            android:textSize="16sp"
+            android:paddingLeft="2dp"
+            android:layout_marginBottom="10dp"
+            android:textColor="@android:color/black"
+            android:text="   At present exact source of infection of COVID-19 has not benn identified. Initially, many of patients in the outbreak in Wuhan, reportedly had some link to large see food and animal market."
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"/>
+
+        <TextView
+            android:textSize="16sp"
+            android:paddingLeft="2dp"
+            android:layout_marginBottom="3dp"
+            android:textColor="@android:color/black"
+            android:text="3. What are the initial symptoms of COVID-19?"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"/>
+
+        <TextView
+            android:textSize="16sp"
+            android:paddingLeft="2dp"
+            android:layout_marginBottom="10dp"
+            android:textColor="@android:color/black"
+            android:text="   Current symptoms reported for patients with COVID-19 include acute onset of fever, cough, and difficulty in breathing."
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"/>
+
+        <TextView
+            android:textSize="16sp"
+            android:paddingLeft="2dp"
+            android:layout_marginBottom="3dp"
+            android:textColor="@android:color/black"
+            android:text="4. How does the virus spread?"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"/>
+
+        <TextView
+            android:textSize="16sp"
+            android:paddingLeft="2dp"
+            android:layout_marginBottom="10dp"
+            android:textColor="@android:color/black"
+            android:text="   The specific mode of transmission of the virus is not clear yet but it seems to be spreading person-to-person."
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"/>
+
+        <TextView
+            android:textSize="16sp"
+            android:paddingLeft="2dp"
+            android:layout_marginBottom="3dp"
+            android:textColor="@android:color/black"
+            android:text="5. What Govt. of India doing about COVID-19?"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"/>
+
+        <TextView
+            android:textSize="16sp"
+            android:paddingLeft="2dp"
+            android:layout_marginBottom="10dp"
+            android:textColor="@android:color/black"
+            android:text="   A 24*7 helpline has been setup by the Govt. at NCDC, New Delhi to answer all the queries regarding the disease. The Govt. is closely monitoring the situation."
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"/>
+
+        <TextView
+            android:textSize="16sp"
+            android:paddingLeft="2dp"
+            android:layout_marginBottom="3dp"
+            android:textColor="@android:color/black"
+            android:text="6. Is there a vaccine to get protection from COVID-19?"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"/>
+
+        <TextView
+            android:textSize="16sp"
+            android:paddingLeft="2dp"
+            android:layout_marginBottom="10dp"
+            android:textColor="@android:color/black"
+            android:text="   Currently there is no vaccine available to protect against COVID-19."
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"/>
+
+        <TextView
+            android:textSize="16sp"
+            android:paddingLeft="2dp"
+            android:layout_marginBottom="3dp"
+            android:textColor="@android:color/black"
+            android:text="7. What are the treatments?"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"/>
+
+        <TextView
+            android:textSize="16sp"
+            android:paddingLeft="2dp"
+            android:layout_marginBottom="10dp"
+            android:textColor="@android:color/black"
+            android:text="   There is no specific treatment available for COVID-19 infection."
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"/>
+
+        <TextView
+            android:textSize="16sp"
+            android:paddingLeft="2dp"
+            android:layout_marginBottom="3dp"
+            android:textColor="@android:color/black"
+            android:text="8. How can I help protect myself?"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"/>
+
+        <TextView
+            android:textSize="16sp"
+            android:paddingLeft="2dp"
+            android:layout_marginBottom="10dp"
+            android:textColor="@android:color/black"
+            android:text="   There is currently no vaccine to prevent COVID-19 infection. The best way to prevent infection is social distancing. Take all the necessary precautions that are instructed."
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"/>
+
+        <TextView
+            android:textSize="16sp"
+            android:paddingLeft="2dp"
+            android:layout_marginBottom="3dp"
+            android:textColor="@android:color/black"
+            android:text="9. What should I do if I had close contact with someone who is confirmed case of COVID-19?"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"/>
+
+        <TextView
+            android:textSize="16sp"
+            android:paddingLeft="2dp"
+            android:layout_marginBottom="10dp"
+            android:textColor="@android:color/black"
+            android:text="   Self-monitor your health for 28 days from day of last contact. If u observe any symptoms then visit the nearest health care centre."
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"/>
+
+        <TextView
+            android:textSize="16sp"
+            android:paddingLeft="2dp"
+            android:layout_marginBottom="3dp"
+            android:textColor="@android:color/black"
+            android:text="10. Should I be tested for COVID-19?"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"/>
+
+        <TextView
+            android:textSize="16sp"
+            android:paddingLeft="2dp"
+            android:layout_marginBottom="10dp"
+            android:textColor="@android:color/black"
+            android:text="   If you develop any symptoms, you should visit nearest health centre and doctor will decide if you need to be tested or not for COVID-19. "
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"/>
+
+    </LinearLayout>
+
+</ScrollView>

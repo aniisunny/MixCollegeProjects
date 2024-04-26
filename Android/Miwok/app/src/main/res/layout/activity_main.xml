@@ -1,0 +1,83 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:background="#FFF7DA"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    tools:context=".MainActivity">
+    
+    <FrameLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+
+        <TextView
+            android:id="@+id/numbers"
+            android:text="Numbers"
+            android:background="#FD8E09"
+            android:textColor="#FFFFFF"
+            android:textSize="24sp"
+            android:paddingLeft="20dp"
+            android:paddingTop="30dp"
+            android:paddingBottom="30dp"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content" />
+
+    </FrameLayout>
+
+    <FrameLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+
+        <TextView
+            android:id="@+id/family"
+            android:text="Family Members"
+            android:background="#379237"
+            android:textColor="#FFFFFF"
+            android:textSize="24sp"
+            android:paddingLeft="20dp"
+            android:paddingTop="30dp"
+            android:paddingBottom="30dp"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content" />
+
+    </FrameLayout>
+
+    <FrameLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+
+        <TextView
+            android:id="@+id/colors"
+            android:text="Colors"
+            android:background="#8800A0"
+            android:textColor="#FFFFFF"
+            android:textSize="24sp"
+            android:paddingLeft="20dp"
+            android:paddingTop="30dp"
+            android:paddingBottom="30dp"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content" />
+
+    </FrameLayout>
+
+    <FrameLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+
+        <TextView
+            android:id="@+id/phrases"
+            android:text="Phrases"
+            android:background="#16AFCA"
+            android:textColor="#FFFFFF"
+            android:textSize="24sp"
+            android:paddingLeft="20dp"
+            android:paddingTop="30dp"
+            android:paddingBottom="30dp"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content" />
+
+    </FrameLayout>
+
+</LinearLayout>

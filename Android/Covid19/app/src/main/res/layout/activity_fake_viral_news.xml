@@ -1,0 +1,80 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+    <LinearLayout
+        android:orientation="vertical"
+        android:background="@android:color/holo_red_dark"
+        android:layout_margin="16dp"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent" >
+
+        <TextView
+            android:text="1. Picture of Italy city with many corpses is actually a scene from the movie Cantonese."
+            android:textSize="20sp"
+            android:textColor="@android:color/black"
+            android:layout_margin="4dp"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"/>
+
+        <TextView
+            android:text="2. Jio has not made any claim of giving free recharge of Rs 498."
+            android:textColor="@android:color/black"
+            android:textSize="20sp"
+            android:layout_margin="4dp"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"/>
+
+        <TextView
+            android:text="3. Many people screaming on the ground is actually a picture of Art Project of 2014."
+            android:textColor="@android:color/black"
+            android:textSize="20sp"
+            android:layout_margin="4dp"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"/>
+
+        <TextView
+            android:text="4. There is not any treatment of Covid-19 in the Dr. Ramesh Gupta's book of Animal Sciences."
+            android:textColor="@android:color/black"
+            android:textSize="20sp"
+            android:layout_margin="4dp"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"/>
+
+        <TextView
+            android:text="5. Picture of a couple who fell ill after treating 134 victims is not of a doctor couple. There is a couple at the airport."
+            android:textColor="@android:color/black"
+            android:textSize="20sp"
+            android:layout_margin="4dp"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"/>
+
+        <TextView
+            android:text="6. Corona virus can live up to 3 hours to 9 days not specifically 12 hours."
+            android:textColor="@android:color/black"
+            android:textSize="20sp"
+            android:layout_margin="4dp"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"/>
+
+        <TextView
+            android:text="7. 500 lions on roads in Russia is actually a movie scene."
+            android:textColor="@android:color/black"
+            android:textSize="20sp"
+            android:layout_margin="4dp"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"/>
+
+        <TextView
+            android:text="8. A fake news of a hair is found in the shape of the moon in Durga Mata's Saptashati Chandi Pothi, which is being told that by immersing it in Ganga water, drinking that water can get rid of the corona, while being told to keep that hair back there."
+            android:textColor="@android:color/black"
+            android:textSize="20sp"
+            android:layout_margin="4dp"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"/>
+
+    </LinearLayout>
+
+</ScrollView>

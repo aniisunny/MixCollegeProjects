@@ -1,0 +1,8 @@
+<resources>
+    <string name="app_name">Smart Nav</string>
+    <string name="Open">Open</string>
+    <string name="Close">Close</string>
+    <string name="title_activity_navigation_drawer">SmartNav</string>
+    <string name="title_activity_maps">Map</string>
+
+</resources>

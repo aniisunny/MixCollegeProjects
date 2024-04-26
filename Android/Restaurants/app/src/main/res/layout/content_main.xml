@@ -1,0 +1,251 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    app:layout_behavior="@string/appbar_scrolling_view_behavior"
+    tools:context=".MainActivity"
+    tools:showIn="@layout/activity_main">
+
+    <RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+        xmlns:app="http://schemas.android.com/apk/res-auto"
+        xmlns:tools="http://schemas.android.com/tools"
+        android:layout_width="match_parent"
+        android:layout_height="0dp"
+        android:layout_weight="3.5"
+        app:layout_behavior="@string/appbar_scrolling_view_behavior"
+        tools:context=".MainActivity"
+        tools:showIn="@layout/activity_main">
+
+        <ImageView
+            android:layout_width="150dp"
+            android:layout_height="150dp"
+            android:id="@+id/image"
+            android:paddingLeft="8dp"
+            android:paddingBottom="10dp"
+            android:src="@drawable/feature" />
+
+        <TextView
+            android:id="@+id/online"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="ONLINE FOOD ORDER FROM"
+            android:layout_toRightOf="@id/image"
+            android:paddingTop="20dp"
+            android:paddingLeft="12dp"
+            android:paddingBottom="8dp"
+            android:paddingRight="8dp"
+            android:textSize="12dp" />
+
+        <TextView
+            android:id="@+id/subway"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_toRightOf="@id/image"
+            android:text="Subway"
+            android:paddingLeft="12dp"
+            android:paddingBottom="8dp"
+            android:paddingRight="8dp"
+            android:layout_below="@id/online"
+            android:textSize="36dp" />
+
+        <TextView
+            android:id="@+id/sector"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Sector 35, Chandigarh"
+            android:layout_toRightOf="@id/image"
+            android:layout_below="@id/subway"
+            android:paddingLeft="12dp"
+            android:paddingBottom="10dp"
+            android:paddingRight="8dp"
+            android:textSize="20dp" />
+
+    </RelativeLayout>
+
+    <LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+        xmlns:app="http://schemas.android.com/apk/res-auto"
+        xmlns:tools="http://schemas.android.com/tools"
+        android:layout_width="match_parent"
+        android:layout_height="0dp"
+        android:layout_weight="1.7"
+        android:orientation="horizontal"
+        app:layout_behavior="@string/appbar_scrolling_view_behavior"
+        tools:context=".MainActivity"
+        tools:showIn="@layout/activity_main">
+
+        <LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+            xmlns:app="http://schemas.android.com/apk/res-auto"
+            xmlns:tools="http://schemas.android.com/tools"
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:layout_weight="2"
+            app:layout_behavior="@string/appbar_scrolling_view_behavior"
+            tools:context=".MainActivity"
+            tools:showIn="@layout/activity_main">
+
+            <ImageView
+                android:id="@+id/call"
+                android:paddingLeft="12dp"
+                android:layout_width="40dp"
+                android:layout_height="50dp"
+                android:src="@drawable/call" />
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_margin="10dp"
+                android:layout_toRightOf="@id/call"
+                android:text="9520401457"
+                android:textSize="30dp" />
+
+        </LinearLayout>
+
+        <LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+            xmlns:app="http://schemas.android.com/apk/res-auto"
+            xmlns:tools="http://schemas.android.com/tools"
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            app:layout_behavior="@string/appbar_scrolling_view_behavior"
+            tools:context=".MainActivity"
+            tools:showIn="@layout/activity_main">
+
+            <TextView
+                android:id="@+id/rating"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_margin="10dp"
+                android:text="4.0"
+                android:textSize="30dp" />
+
+            <ImageView
+                android:layout_width="40dp"
+                android:layout_height="50dp"
+                android:layout_toRightOf="@id/rating"
+                android:src="@drawable/star" />
+
+        </LinearLayout>
+
+    </LinearLayout>
+
+    <LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+        xmlns:app="http://schemas.android.com/apk/res-auto"
+        xmlns:tools="http://schemas.android.com/tools"
+        android:layout_width="match_parent"
+        android:layout_height="0dp"
+        android:layout_weight="2"
+        app:layout_behavior="@string/appbar_scrolling_view_behavior"
+        tools:context=".MainActivity"
+        tools:showIn="@layout/activity_main">
+
+        <TextView
+            android:id="@+id/cuisines"
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:layout_margin="10dp"
+            android:layout_weight="1"
+            android:text="CUISINES:"
+            android:textSize="20dp" />
+
+        <TextView
+            android:id="@+id/bread"
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:layout_weight="2"
+            android:padding="10dp"
+            android:text="Submarine sandwiches and salads"
+            android:textSize="20dp" />
+
+    </LinearLayout>
+
+    <LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+        xmlns:app="http://schemas.android.com/apk/res-auto"
+        xmlns:tools="http://schemas.android.com/tools"
+        android:layout_width="match_parent"
+        android:layout_height="0dp"
+        android:layout_weight="2"
+        app:layout_behavior="@string/appbar_scrolling_view_behavior"
+        tools:context=".MainActivity"
+        tools:showIn="@layout/activity_main">
+
+        <TextView
+            android:id="@+id/costs"
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:layout_margin="10dp"
+            android:layout_weight="1"
+            android:text="COSTS FOR TWO:"
+            android:textSize="20dp" />
+
+        <TextView
+            android:id="@+id/prize"
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:layout_weight="2"
+            android:textSize="20dp"
+            android:text="RS. 300"
+            android:layout_marginTop="15dp" />
+
+    </LinearLayout>
+
+    <LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+        xmlns:app="http://schemas.android.com/apk/res-auto"
+        xmlns:tools="http://schemas.android.com/tools"
+        android:layout_width="match_parent"
+        android:layout_height="0dp"
+        android:layout_weight="1.6"
+        app:layout_behavior="@string/appbar_scrolling_view_behavior"
+        tools:context=".MainActivity"
+        tools:showIn="@layout/activity_main">
+
+        <TextView
+            android:id="@+id/hours"
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:layout_margin="10dp"
+            android:layout_weight="1"
+            android:text="HOURS:"
+            android:textSize="20dp" />
+
+        <TextView
+            android:id="@+id/time"
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:layout_weight="2"
+            android:textSize="20dp"
+            android:text="11am – 10pm"
+            android:layout_marginTop="5dp" />
+
+    </LinearLayout>
+
+    <RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+        xmlns:app="http://schemas.android.com/apk/res-auto"
+        xmlns:tools="http://schemas.android.com/tools"
+        android:layout_width="match_parent"
+        android:layout_height="0dp"
+        android:layout_weight="5"
+        app:layout_behavior="@string/appbar_scrolling_view_behavior"
+        tools:context=".MainActivity"
+        tools:showIn="@layout/activity_main">
+
+       <TextView
+           android:id="@+id/about"
+           android:textSize="24dp"
+           android:layout_width="match_parent"
+           android:layout_height="wrap_content"
+           android:text="About Subway" />
+
+        <TextView
+            android:textSize="18dp"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Guests in 112 countries have easy access to a fresh line-up of vegetables for their made-to-order sandwiches and salads at more than 44,700 franchised locations. Sandwich Artists serve 7.5 million sandwiches a day around the world."
+            android:layout_below="@id/about"
+            android:padding="5dp" />
+
+    </RelativeLayout>
+
+</LinearLayout>

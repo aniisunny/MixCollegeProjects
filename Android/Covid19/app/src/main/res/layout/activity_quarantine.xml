@@ -1,0 +1,119 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:orientation="vertical"
+    android:layout_margin="12dp"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".Quarantine">
+
+    <LinearLayout
+        android:orientation="vertical"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+
+        <LinearLayout
+            android:orientation="horizontal"
+            android:layout_marginBottom="4dp"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent">
+
+            <TextView
+                android:text="SNO"
+                android:textColor="@android:color/black"
+                android:textSize="14sp"
+                android:paddingLeft="4dp"
+                android:layout_weight="0.1"
+                android:layout_width="0dp"
+                android:layout_height="wrap_content"/>
+
+            <TextView
+                android:text="NAME"
+                android:textColor="@android:color/black"
+                android:textSize="14sp"
+                android:paddingLeft="4dp"
+                android:layout_weight="0.2"
+                android:layout_width="0dp"
+                android:layout_height="wrap_content"/>
+
+            <TextView
+                android:text="ADDRESS"
+                android:textColor="@android:color/black"
+                android:textSize="14sp"
+                android:paddingLeft="4dp"
+                android:layout_weight="0.3"
+                android:layout_width="0dp"
+                android:layout_height="wrap_content"/>
+
+            <TextView
+                android:text="DATE OF QUARANTINE"
+                android:textColor="@android:color/black"
+                android:textSize="14sp"
+                android:paddingLeft="4dp"
+                android:layout_weight="0.2"
+                android:layout_width="0dp"
+                android:layout_height="wrap_content"/>
+
+            <TextView
+                android:text="DATE TILL QUARANTINE"
+                android:textColor="@android:color/black"
+                android:textSize="14sp"
+                android:paddingLeft="4dp"
+                android:layout_weight="0.2"
+                android:layout_width="0dp"
+                android:layout_height="wrap_content"/>
+
+        </LinearLayout>
+
+        <LinearLayout
+            android:orientation="horizontal"
+            android:layout_marginBottom="4dp"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent">
+
+            <TextView
+                android:text="1"
+                android:textSize="14sp"
+                android:paddingLeft="4dp"
+                android:layout_weight="0.1"
+                android:layout_width="0dp"
+                android:layout_height="wrap_content"/>
+
+            <TextView
+                android:text="Surinder Sharma"
+                android:textSize="14sp"
+                android:paddingLeft="4dp"
+                android:layout_weight="0.2"
+                android:layout_width="0dp"
+                android:layout_height="wrap_content"/>
+
+            <TextView
+                android:text="Hno 4569, Darshan Vihar Sector 68 Mohali"
+                android:textSize="14sp"
+                android:paddingLeft="4dp"
+                android:layout_weight="0.3"
+                android:layout_width="0dp"
+                android:layout_height="wrap_content"/>
+
+            <TextView
+                android:text="09-03-2020"
+                android:textSize="14sp"
+                android:paddingLeft="4dp"
+                android:layout_weight="0.2"
+                android:layout_width="0dp"
+                android:layout_height="wrap_content"/>
+
+            <TextView
+                android:text="23-03-2020"
+                android:textSize="14sp"
+                android:paddingLeft="4dp"
+                android:layout_weight="0.2"
+                android:layout_width="0dp"
+                android:layout_height="wrap_content"/>
+
+        </LinearLayout>
+
+    </LinearLayout>
+
+</ScrollView>
